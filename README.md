@@ -1,4 +1,4 @@
-#h5-11-01-legend
+#legend
 这是一家提供一站式互联网媒体营销方案，包括数字营销，品牌设计，网页设计，APP开发微信开发和跨平台系统开发等业务的互联网公司的门户网站，
 <h3>首页效果1</h3>
 ![image](https://github.com/hzn1995/legend/raw/master/img-folder/01.jpg)
