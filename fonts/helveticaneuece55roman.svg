@@ -1,0 +1,1414 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Legend Digital agency - Web development,Logo design,Ecommerce web design ,Graphic Design</title>
+<meta name="description" content="Melbourne  Legend web design provide full range of website construction which includes website planning, website design, website construction, Logo design, system development, promotion and communication, operations guide, website maintenance and oth" /><link rel="stylesheet" href="http://legenddigital.com.au/themes/en/images/c_global.css" />
+<link rel="stylesheet" href="http://legenddigital.com.au/themes/en/images/c_default.css" />
+<link rel="stylesheet" href="http://legenddigital.com.au/themes/en/images/perfect-scrollbar.css" />
+<link href="/favicon.ico" mce_href="/favicon.ico" rel="bookmark" type="image/x-icon" />
+<link href="/favicon.ico" mce_href="/favicon.ico" rel="icon" type="image/x-icon" />
+<link href="/favicon.ico" mce_href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<script src="http://legenddigital.com.au/themes/en/js/jquery-1.8.2.min.js"></script>
+<script src="http://legenddigital.com.au/themes/en/js/jquery.mousewheel.js"></script>
+<script src="http://legenddigital.com.au/themes/en/js/jquery.easing.min.js"></script>
+<script src="http://legenddigital.com.au/themes/en/js/hammer.min.js"></script>
+<!--[if IE]>
+<script src="http://legenddigital.com.au/themes/en/js/html5.js"></script>
+<![endif]-->
+<script>
+
+	var hash = window.location.hash;
+	$(function(){
+		setLocation(hash);
+	});
+	function setLocation(hash) {
+		var tm = arguments[1] ? arguments[1] : 500;
+		if (hash.substring(0, 1) == '#') hash = hash.substring(1);
+		else {
+			var arr = hash.split('#');
+			hash = arr[1];
+		}
+		if ( hash != '' ) {
+			var obj = $('a[name="'+ hash +'"]');
+			if ( obj.length > 0 ) {
+				$('html,body').stop(true,true).animate({ 'scrollTop': obj.offset().top }, tm, function(){
+					$('html,body').stop(true,true).animate({ 'scrollTop': obj.offset().top - $('#nav-copy').outerHeight(false) }, tm / 2);
+				});
+			}
+		}
+	}
+</script>
+</head>
+<body style="padding:0 !important;">
+
+	<div class="loading2">
+		<div class="loader">
+			<div class="loader-inner pacman">
+			  <div></div>
+			  <div></div>
+			  <div></div>
+			  <div></div>
+			  <div></div>
+			</div>
+		</div>
+	</div>
+<header>
+	<div class="indHeader headers clearfix">
+		<h1 class="logos logo1"><a href="/"><img src="http://legenddigital.com.au/themes/en/images/logo-white.png" alt="Legend Digital agency" /></a></h1>
+		<div class="nav phoneNav">
+			<ul class="animate phone clearfix">
+				<li><a href="/" class="current">Home</a></li>
+				<li><a href="/#about">About us</a></li>
+				<li><a href="/web-design">Web design</a></li>
+				<li><a href="/ecommerce">Ecommerce</a></li>
+				<li><a href="/portfolio/picture-album">Graphic Design</a></li>
+				<li><a href="/#portfolio">Portfolio</a></li>
+				<li><a href="/#contact">Contact us</a></li>
+				<li class="phoneShow"><a href="cn/" class="cn">中文</a></li>
+				<li class="phoneShow"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', '/verifycode.gif?w=120&h=40&i=2&rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></li>
+			</ul>
+		</div>
+		<div class="navBtn"><span><i></i><i></i><i></i></span></div>
+		<div class="langs">
+			<a href="cn/" class="cn">中文</a>
+		</div>
+		<div class="header-tel">CALL: 1300 665 030</div>
+		<div class="animate quote clearfix"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').css('margin-top', $(window).scrollTop()).show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', '/verifycode.gif?w=120&h=40&i=2&rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></div>
+	</div>
+	
+	
+	<div class="banner">
+		<ul class="arrows clearfix">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<ul class="banner-slides">
+			<li class="active">
+				<video autoplay loop id="video" poster="">
+					<source src="/data/upload/banner.mp4" type="video/mp4;">
+				</video>
+				<div class="grid-filter"></div>
+				<div class="blue-filter"></div>
+				<div class="banner-txt">
+					<div class="banner-txt-bd cssTable">
+						<div class="cssTd">
+							<div class="banner-text1">Why choose us?</div>
+							<div class="banner-text2">
+								<!--p>We are results- oriented, committed to help customers build and maintain the brand image in the rapidly changing world. </p-->
+								<p>We have extensive marketing resources, maintaining the long-standing relations with leading network platforms. </p>
+								<p>We specialise in branding, design consulting, web,software and application <br/>development and network promotion. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li style="background:url(http://legenddigital.com.au/themes/en/images/banner_bg_01.jpg) no-repeat center; background-size:cover;">
+				<div class="txt">
+					<h2>神话出品，原生态App</h2>
+					<h2>正式上线</h2>
+					<div class="logos clearfix">
+						<span><img src="http://legenddigital.com.au/themes/en/images/banner_logo_01.png" /></span>
+						<span><img src="http://legenddigital.com.au/themes/en/images/banner_ewm_01.jpg" /></span>
+					</div>
+					<div class="app-img-link clearfix"><a href=""><img src="http://legenddigital.com.au/themes/en/images/banner_btn_01.png" /></a></div>
+				</div>
+				<div class="img">
+					<img src="http://legenddigital.com.au/themes/en/images/banner_img_01.png" />
+				</div>
+			</li>
+			<li style="background:url(http://legenddigital.com.au/themes/en/images/banner_bg_02.jpg) no-repeat center; background-size:cover;">
+				<div class="txt2">
+					<h3><img src="http://legenddigital.com.au/themes/en/images/banner_txt_02.png" /></h3>
+					<h4><img src="http://legenddigital.com.au/themes/en/images/banner_txt_03.png" /></h4>
+					<p class="article">Australian Chinese Age (ACA) Newspaper Group is one of the <br/>largest Chinese newspaper groups in Australia</p>
+					<div class="web-link clearfix"><a href="/cases/175" target="_blank">Launch site</a></div>
+				</div>
+			</li>
+		</ul>
+		<div class="next banner-click"><a href="#services" class="animate click" onclick="return false;";><img src="http://legenddigital.com.au/themes/en/images/banner-click.png" alt="click" /></a></div>
+	</div>
+	<script>
+		if($(window).width()<=768){
+			$('.banner .banner-slides li').eq(0).remove();
+			$('.banner .banner-slides li').eq(0).addClass('active');
+			bannerFun();
+		}else{
+			$('.pcBanner').show();
+			$('.banner .grid-filter, .banner .blue-filter').hide();
+			$('.banner .banner-slides video').hide().bind('canplay', function(){
+				$(this).show();
+				$('.banner .grid-filter, .banner .blue-filter').show();
+				$(window).resize(function(){
+					if ( $('header nav .phone').is(':hidden') ) $('.banner').height(parseInt(720*($(window).width()/1280)));
+				});
+			});
+			bannerFun();
+		}
+		function bannerFun(){
+			$('.banner').height($(window).height());
+			var curIndex = 0;
+			var minIndex = 0;
+			var maxIndex = $('.banner .banner-slides li').length - 1;
+			$('.banner .arrows').html('');
+			for(var i=0; i<=maxIndex; i++){
+				$('.banner .arrows').append('<li></li>');
+			}
+			$('.banner .arrows li').eq(0).addClass('active');
+			var getIndex = function(index){
+				if(index <= minIndex){
+					curIndex = minIndex;
+					return curIndex;
+				}else if(index >= maxIndex){
+					curIndex = maxIndex;
+					return curIndex;
+				}else{
+					curIndex = index;
+					return curIndex;
+				}
+			};
+			$('.banner .next').click(function(){
+				if(curIndex + 1 > maxIndex){
+					$('.banner').slideUp('300', function(){
+						$('.indHeader2').parent().css({ 'height':$('.indHeader2').outerHeight(true) });
+						$('.indHeader2').addClass('on');
+					});
+				}else{
+					$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
+					$('.banner .banner-slides li').eq(getIndex(curIndex+1)).fadeIn('300', function(){$(this).addClass('active')});
+					$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
+				}
+			});
+			$('.banner .arrows li').each(function(index){
+				$(this).click(function(){
+					if(curIndex != index){
+						$(this).addClass('active').siblings().removeClass('active');
+						$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
+						$('.banner .banner-slides li').eq(getIndex(index)).fadeIn('300', function(){$(this).addClass('active')});
+					}
+				});
+			});
+
+			var startPos = 0,
+				endPos = 0;
+			$('.banner').bind('touchstart', function(e){
+				startPos = e.originalEvent.targetTouches[0].screenY;
+				endPos = 0;
+			});
+			$('.banner').bind('touchmove', function(e){
+				e.preventDefault();
+				endPos = e.originalEvent.targetTouches[0].screenY;
+			});
+			$('.banner').bind('touchend', function(){
+				var v = endPos - startPos;
+				if(Math.abs(v) > 20 && endPos != 0){
+					if(v < 0){
+						if(curIndex + 1 > maxIndex){
+							$('.banner').slideUp('300', function(){
+								$('.indHeader2').parent().css({ 'height':$('.indHeader2').outerHeight(true) });
+								$('.indHeader2').addClass('on');
+							});
+						}else{
+							$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
+							$('.banner .banner-slides li').eq(getIndex(curIndex+1)).fadeIn('300', function(){$(this).addClass('active')});
+							$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
+						}
+					}else{
+						if(curIndex - 1 < minIndex){
+						}else{
+							$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
+							$('.banner .banner-slides li').eq(getIndex(curIndex-1)).fadeIn('300', function(){$(this).addClass('active')});
+							$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
+						}
+					}
+				}
+			});
+			
+			
+			$('.banner .banner-slides').bind('mousewheel', function(event, delta, deltaX, deltaY){
+				if(deltaY < 0){
+					if(curIndex + 1 > maxIndex){
+						event.preventDefault();
+						$('.banner').slideUp('300', function(){
+							$('.indHeader2').parent().css({ 'height':$('.indHeader2').outerHeight(true) });
+							$('.indHeader2').addClass('on');
+						});
+					}else{
+						event.preventDefault();
+						$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
+						$('.banner .banner-slides li').eq(getIndex(curIndex+1)).fadeIn('300', function(){$(this).addClass('active')});
+						$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
+					}
+				}else{
+					if(curIndex - 1 < minIndex){
+
+					}else{
+						$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
+						$('.banner .banner-slides li').eq(getIndex(curIndex-1)).fadeIn('300', function(){$(this).addClass('active')});
+						$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
+					}
+				}
+			});
+
+			$(window).scroll(function(){
+				if($(window).scrollTop() <= 0){
+					$('.banner').slideDown('300');
+				}
+			});
+			$(window).resize(function(){
+				$('.banner').height($(window).height());
+			});
+			
+		}
+	</script>
+	
+	<div class="header-box">
+		<div class="indHeader2 headers clearfix">
+			<h1 class="logos logo2"><a href="/"><img src="http://legenddigital.com.au/themes/en/images/logo.jpg" alt="Legend Digital agency" /></a></h1>
+			<div class="nav phoneNav">
+				<ul class="animate clearfix">
+					<li><a href="/" class="current"><span>Home</span></a></li>
+					<li><a href="/#about" onclick="return false;"><span>About us</span></a></li>
+					<li><a href="/#services"><span>Services</span></a></li>
+					<li><a href="/#portfolio" onclick="return false;"><span>Portfolio</span></a></li>
+					<li><a href="/#contact" onclick="return false;"><span>Contact us</span></a></li>
+					<li class="phoneShow"><a href="cn/" class="cn">中文</a></li>
+					<li class="phoneShow"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', '/verifycode.gif?w=120&h=40&i=2&rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></li>
+				</ul>
+			</div>
+			<script>
+				var _navUl = $('script:last').prev().find('ul');
+				_navUl.find('a').click(function(){
+					setLocation($(this).attr('href'));
+				})
+			</script>
+			<div class="navBtn"><span><i></i><i></i><i></i></span></div>
+			<div class="nav">
+				<ul class="animate clearfix">
+					<li><a href="/" class="current"><span>Home</span></a></li>
+					<li><a href="/#about" onclick="return false;"><span>About us</span></a></li>
+					<li><a href="/#services"><span>Services</span></a></li>
+					<li><a href="/#portfolio" onclick="return false;"><span>Portfolio</span></a></li>
+					<li><a href="/#contact" onclick="return false;"><span>Contact us</span></a></li>
+					<li class="phoneShow"><a href="cn/" class="en">中文</a></li>
+					<li class="phoneShow"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').css('margin-top', $(window).scrollTop()).show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', '/verifycode.gif?w=120&h=40&i=2&rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></li>
+				</ul>
+			</div>
+			<script>
+				var _navUl = $('script:last').prev().find('ul');
+				_navUl.find('a').click(function(){
+					setLocation($(this).attr('href'));
+				})
+			</script>
+			<div class="animate quote clearfix"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').css('margin-top', $(window).scrollTop()).show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', '/verifycode.gif?w=120&h=40&i=2&rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></div>
+		</div>
+	</div>
+	
+	<a name="services"></a>
+	<div class="banner-img" style="position:relative;">
+		<div class="hd hd-01">
+			<h2>OUR SERVICES.</h2>
+		</div>
+		<img src="http://legenddigital.com.au/themes/en/images/lwd_banner_people.jpg" alt="" />
+	</div>
+</header>
+
+<script>
+	var isShowNav = true;
+	$('.navBtn').each(function(){
+		var _this = $(this);
+		_this.click(function(e){
+			e.stopPropagation();
+			if( isShowNav ){
+				_this.parent().addClass('menuOn');
+				_this.addClass('on');
+				_this.siblings('.phoneNav').addClass('on');
+				isShowNav = false;
+			}else{
+				_this.parent().removeClass('menuOn');
+				_this.removeClass('on');
+				_this.siblings('.phoneNav').removeClass('on');
+				isShowNav = true;
+			}
+		});
+	});
+	$('body').click(function(){
+		if(!isShowNav){
+			isShowNav = true;
+			$('.navBtn').parent().removeClass('menuOn');
+			$('.navBtn').removeClass('on');
+			$('.navBtn').siblings('.phoneNav').removeClass('on');
+		}
+	});
+	
+	$(window).scroll(function(){
+		if( $('.indHeader2').parent().offset().top <= $(window).scrollTop() ){
+			$('.indHeader2').parent().css({ 'height':$('.indHeader2').outerHeight(true) });
+			$('.indHeader2').addClass('on');
+			$('.indHeader').addClass('unon');
+		}else{
+			$('.indHeader2').parent().removeAttr('style');
+			$('.indHeader2').removeClass('on');
+			$('.indHeader').removeClass('unon');
+		}
+	});
+</script>
+	
+<div class="main">
+	<div class="why-choose-us">
+	<div class="wcu-wrapper clearfix">
+		<div class="col first">
+			<div class="animate">
+				<div class="new-icon niba1"><i></i></div>
+				<h3>Website development</h3>
+				<p>PC+ Mobile Version, Original Design with Custom Development</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="animate">
+				<div class="new-icon niba2"><i></i></div>
+				<h3>Branding</h3>
+				<p>Branding/VI, Brand Strategy, Marketing Positioning</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="animate">
+				<div class="new-icon niba3"><i></i></div>
+				<h3>Marketing</h3>
+				<p>Marketing Solutions, Search Engine, Social Media, Traditional Media</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="animate">
+				<div class="new-icon niba4"><i></i></div>
+				<h3>App & Software</h3>
+				<p>Application Custom Development</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="animate">
+				<div class="new-icon niba5"><i></i></div>
+				<h3>Software</h3>
+				<p>SME Software Development Solutions</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="animate">
+				<div class="new-icon niba6"><i></i></div>
+				<h3>Australia-China one-stop solution</h3>
+				<p>Australia-China Enterprise </br>E-Marketing solution</p>
+			</div>
+		</div>
+	</div>
+</div>	<script>
+		if ( $('header nav .phone').is(':hidden') ) $('.banner').height(parseInt(720*($(window).width()/1280)));
+		//$('.banner-img').css('position', 'absolute');
+	</script>
+	<a name="marketing"></a>
+<div class="marketing">
+	<div class="hd hd-02">
+		<h2>Brand Integrated Marketing Services</h2>
+		<p>Successful Case</p>
+	</div>
+	<div class="bd">
+		<div class="marketing-slider">
+			<ul class="arrow"><li class="prev"><a href="javascript:;">prev</a></li><li class="next"><a href="javascript:;">next</a></li></ul>
+			<ul class="slides clearfix">
+									<li>
+						<div class="box">
+							<div class="pic"><a href="/marketing/202" target="_blank"><img src="/data/upload/thumbnails/2016-03/20160304115329572672_300x300_cut.jpg" alt="BIG BANG澳大利亚演唱会 刷脸赢门票" /></a></div>
+							<div class="txt"><a href="/marketing/202" target="_blank">BIG BANG澳大利亚演唱会 刷脸赢门票</a></div>
+							<div class="btn"><a href="/marketing/202" target="_blank">View more</a></div>
+						</div>
+					</li>
+									<li>
+						<div class="box">
+							<div class="pic"><a href="/marketing/198" target="_blank"><img src="/data/upload/thumbnails/2016-02/20160225112313161682_300x300_cut.jpg" alt="腾讯全民经纪人" /></a></div>
+							<div class="txt"><a href="/marketing/198" target="_blank">腾讯全民经纪人</a></div>
+							<div class="btn"><a href="/marketing/198" target="_blank">View more</a></div>
+						</div>
+					</li>
+									<li>
+						<div class="box">
+							<div class="pic"><a href="/marketing/180" target="_blank"><img src="/data/upload/thumbnails/2016-02/20160219143821408862_300x300_cut.jpg" alt="TASMAN UGG" /></a></div>
+							<div class="txt"><a href="/marketing/180" target="_blank">TASMAN UGG</a></div>
+							<div class="btn"><a href="/marketing/180" target="_blank">View more</a></div>
+						</div>
+					</li>
+									<li>
+						<div class="box">
+							<div class="pic"><a href="/marketing/179" target="_blank"><img src="/data/upload/thumbnails/2016-02/20160219145131169162_300x300_cut.jpg" alt="全球华语网络主播大赛" /></a></div>
+							<div class="txt"><a href="/marketing/179" target="_blank">全球华语网络主播大赛</a></div>
+							<div class="btn"><a href="/marketing/179" target="_blank">View more</a></div>
+						</div>
+					</li>
+									<li>
+						<div class="box">
+							<div class="pic"><a href="/marketing/162" target="_blank"><img src="/data/upload/thumbnails/2016-02/20160219144607881625_300x300_cut.jpg" alt="2016张惠妹世界巡演 悉尼站" /></a></div>
+							<div class="txt"><a href="/marketing/162" target="_blank">2016张惠妹世界巡演 悉尼站</a></div>
+							<div class="btn"><a href="/marketing/162" target="_blank">View more</a></div>
+						</div>
+					</li>
+									<li>
+						<div class="box">
+							<div class="pic"><a href="/marketing/159" target="_blank"><img src="/data/upload/thumbnails/2016-02/20160219144326589268_300x300_cut.jpg" alt="汪峰2015风暴来临演唱会新闻发布会" /></a></div>
+							<div class="txt"><a href="/marketing/159" target="_blank">汪峰2015风暴来临演唱会新闻发布会</a></div>
+							<div class="btn"><a href="/marketing/159" target="_blank">View more</a></div>
+						</div>
+					</li>
+									<li>
+						<div class="box">
+							<div class="pic"><a href="/marketing/160" target="_blank"><img src="/data/upload/thumbnails/2016-02/20160219144727150989_300x300_cut.jpg" alt="2015澳洲华裔小姐竞选" /></a></div>
+							<div class="txt"><a href="/marketing/160" target="_blank">2015澳洲华裔小姐竞选</a></div>
+							<div class="btn"><a href="/marketing/160" target="_blank">View more</a></div>
+						</div>
+					</li>
+									<li>
+						<div class="box">
+							<div class="pic"><a href="/marketing/161" target="_blank"><img src="/data/upload/thumbnails/2016-02/20160219144835103064_300x300_cut.jpg" alt="汪峰2015风暴来临演唱会门票抽奖" /></a></div>
+							<div class="txt"><a href="/marketing/161" target="_blank">汪峰2015风暴来临演唱会门票抽奖</a></div>
+							<div class="btn"><a href="/marketing/161" target="_blank">View more</a></div>
+						</div>
+					</li>
+							</ul>
+		</div>
+	</div>
+</div>
+<div class="marketing2">
+	<div class="wrap">
+		<div class="hd-03"><h2>Marketing partners</h2></div>
+		<ul class="clearfix">
+			<li><img src="http://legenddigital.com.au/themes/en/images/lwd_pic_02.jpg" />谷歌合作伙伴</li>
+			<li><img src="http://legenddigital.com.au/themes/en/images/lwd_pic_03.png" />百度联盟</li>
+			<li><img src="http://legenddigital.com.au/themes/en/images/lwd_pic_04.jpg" />支付宝海外合作</li>
+			<li><img src="http://legenddigital.com.au/themes/en/images/lwd_pic_05.jpg" />微信澳洲合作方支持</li>
+		</ul>
+	</div>
+</div>
+<script>
+$(function(){
+	var s = $('.marketing-slider');
+	var sUl = s.find('.slides');
+	var sLi = s.find('.slides li');
+	var sLength = s.find('.slides li').length;
+	
+	var vWidth = s.outerWidth();
+	var vNum = 3;
+	var sLiBigWidth = vWidth / vNum;
+	var sLiSmallWidth = sLiBigWidth * 0.8;
+	
+	var isScroll = true;
+	var sTime = null;
+	
+
+	for( var i = sLength; i >= 1; i--){
+		sLi.eq(i-1).clone().addClass('clone').removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2}).prependTo(sUl);
+	}
+	for( var i = 1; i <= sLength; i++){
+		sLi.eq(i-1).clone().addClass('clone').removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2}).appendTo(sUl);
+	}
+	
+	var sInit = function(){
+		if( !sTime ){
+			clearTimeout(sTime);
+		}
+
+		vWidth = s.outerWidth();
+		sLiBigWidth = vWidth / vNum;
+		sLiSmallWidth = sLiBigWidth * 0.8;
+
+		sUl.css({'left': -(sLength * sLiSmallWidth)+'px', 'width': ( sLength * sLiSmallWidth * 2) + (( sLength -3 ) * sLiSmallWidth) + (3 * sLiBigWidth) +'px'});
+		sLi = s.find('.slides li');
+		sLi.removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2 });
+		for( var i=sLength; i< sLength+vNum; i++ ){
+			sLi.eq(i).addClass('active').css({'width': sLiBigWidth,'margin-top':0 });
+		}
+		s.find('.arrow').css({'top': sLiBigWidth/2 })
+		s.height(sUl.height());
+		setTimeout(function(){
+			s.height(sUl.height());
+		},600);
+	}
+	sInit();
+	
+	var slider_arrow_prev = function(){
+		if( !isScroll ){
+			return;
+		}
+		isScroll = false;
+		
+		sLi = s.find('.slides li');
+		sLi.removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2 });
+		for( var i=sLength-vNum+1; i< sLength+1; i++ ){
+			sLi.eq(i).addClass('active').css({'width': sLiBigWidth,'margin-top':0 });
+		}
+		
+		sUl.css({'left': (parseInt(sUl.css('left'))) - (sLiSmallWidth * 3) });
+		s.find('.slides li:gt('+(sLength*3 -vNum)+')').prependTo(sUl);
+		sUl.animate({'left': (sLiSmallWidth * 3) + (parseInt(sUl.css('left')))  },1000,'swing',function(){ isScroll = true;});
+	}
+	
+	var slider_arrow_next = function(){
+		if( !isScroll ){
+			return;
+		}
+		isScroll = false;
+		
+		sLi = s.find('.slides li');
+		sLi.removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2 });
+		for( var i=sLength+vNum; i< sLength+(vNum*2); i++ ){
+			sLi.eq(i).addClass('active').css({'width': sLiBigWidth,'margin-top':0});
+		}
+		
+		sUl.css({'left': (sLiSmallWidth * 3) + (parseInt(sUl.css('left'))) +'px'});
+		s.find('.slides li:lt('+(vNum)+')').appendTo(sUl);
+		sUl.animate({'left': (parseInt(sUl.css('left'))) - (sLiSmallWidth * 3) },1000,'swing',function(){ isScroll = true;});
+	}
+	
+	s.find('.arrow li').eq(0).click(function(){
+		slider_arrow_prev();
+	});
+	s.find('.arrow li').eq(1).click(function(){
+		slider_arrow_next();
+	});
+	
+	$(window).resize(function(){
+		sInit();
+	});
+});
+</script>	<a name="sysPro"></a>
+<div class="sysPro">
+	<div class="hd hd-02">
+		<h2>System Development Schemes and Solutions</h2>
+		<p>Advanced custom built, tailored to your exact requirements.</p>
+	</div>
+	<div class="bd">
+		<div class="sysPro-slider clearfix">
+			<ul class="arrow"><li class="prev"><a href="javascript:;"><i></i></a></li><li class="next"><a href="javascript:;"><i></i></a></li></ul>
+			<div class="txt-slides">
+				<ul class="slides clearfix">
+											<li class="txt-slider-item">
+							<div class="box">
+								<div class="txt">
+									<h2>神话物流系统</h2>
+									<div class="article">
+										<p>
+	神话物流系统是针对华人物流公司开发的一套职能物流系统，系统包含 司机扫描设备仓库入库设备，仓库出库设备等软件以及硬件研发。解决了目前华人的物流公司中的身份证多次上传，产品报关单人工生成以及excel上传面单信息等,神话物流系统通过技术来帮助传统物流公司解决物流流程上的重复劳动力，减少人工成本。</p>
+<ul>
+	<li>
+		自动报关单生成</li>
+	<li>
+		批次身份证批量导出</li>
+	<li>
+		智能面单录入</li>
+</ul>
+
+										<div class="btn"><a href="/system/191" target="_blank">查看详细</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+											<li class="txt-slider-item">
+							<div class="box">
+								<div class="txt">
+									<h2>在线订餐系统研发</h2>
+									<div class="article">
+										<p>
+	<span style="font-size: 12px; font-weight: normal;">神话在线订餐系统是包含：餐厅入驻、网上订餐、自动打印票据、平台配送、签收评</span><span style="font-size: 12px; font-weight: normal;">价、多终端支持的快捷订餐平台，系统运行稳定，操作快速便捷，为餐厅和会员建立</span><span style="font-size: 12px; font-weight: normal;">方便的订餐渠道。 餐厅入驻后可以发布自己的菜品，会员可通过地图定位找到附近的</span><span style="font-size: 12px; font-weight: normal;">餐厅，查看餐厅的菜系和网友评价挑选符合自己口味的餐厅</span></p>
+<ul>
+	<li>
+		支持多餐厅入驻</li>
+	<li>
+		支持PC、Pad和手机浏览器访问</li>
+	<li>
+		自动打印票据</li>
+</ul>
+
+										<div class="btn"><a href="/system/192" target="_blank">查看详细</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+											<li class="txt-slider-item">
+							<div class="box">
+								<div class="txt">
+									<h2>神话租房平台系统研发</h2>
+									<div class="article">
+										<p>
+	<font color="#000000" face="宋体"><span style="font-size: 16px;">神话租房平台具有精准的搜索引擎，通过区域和Post Code快速查找房源，同时提供地</span></font><span style="font-size: 16px; color: rgb(0, 0, 0); font-family: 宋体;">图搜索可以直接在地图上找到自己心仪的房屋，平台内的房源信息及时准确，找房租房</span><span style="font-size: 16px; color: rgb(0, 0, 0); font-family: 宋体;">的流程便捷，使得租客更快捷的找到房屋，房东更高效的出租房屋，更可以大学为搜索</span><span style="font-size: 16px; color: rgb(0, 0, 0); font-family: 宋体;">条件查询大学附近的精品房源，为留学生提供独一无二的便捷租房体验。</span></p>
+<ul>
+	<li>
+		信息及时精准，房源定期下架</li>
+	<li>
+		站内信，租客和房东通过站内信联系</li>
+	<li>
+		独有特色增值服务</li>
+</ul>
+
+										<div class="btn"><a href="/system/163" target="_blank">查看详细</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+									</ul>
+			</div>
+			<div class="pic-slides">
+				<div class="pic-slides-bd">
+					<ul class="slides clearfix">
+													<li class="pic-slides-item">
+								<div class="box">
+									<div class="pic"><a href="javascript:;"><img src="/data/upload/thumbnails/2016-02/20160226133058162820_300x300_cut.jpg" alt="神话物流系统" /></a></div>
+								</div>
+							</li>
+													<li class="pic-slides-item">
+								<div class="box">
+									<div class="pic"><a href="javascript:;"><img src="/data/upload/thumbnails/2016-02/20160226132533180363_300x300_cut.jpg" alt="在线订餐系统研发" /></a></div>
+								</div>
+							</li>
+													<li class="pic-slides-item">
+								<div class="box">
+									<div class="pic"><a href="javascript:;"><img src="/data/upload/thumbnails/2016-02/20160226134007128793_300x300_cut.jpg" alt="神话租房平台系统研发" /></a></div>
+								</div>
+							</li>
+											</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var sysPro = function(obj){
+		var obj = $(obj);
+		var objBigBox = obj.find('.slides');
+		var objSmallBox = obj.find('.slides li');
+		var objSBLength = obj.find('.slides li').length;
+		var viewWidth = obj.outerWidth();
+		var smallBoxWidth = viewWidth;
+		var bigBoxWidth = ((objSBLength - 1) * smallBoxWidth) + viewWidth;
+		
+		var init = function(){
+			viewWidth = obj.outerWidth();
+			smallBoxWidth = viewWidth;
+			bigBoxWidth = ((objSBLength - 1) * smallBoxWidth) + viewWidth;
+		}
+		
+		obj.find('.pic-slides-bd').css({'width': bigBoxWidth+'px'});
+		objSmallBox.css({'width': viewWidth+'px'});
+		objSmallBox.eq(0).addClass('active');
+		obj.siblings('.txt-slides').find('.txt-slider-item').eq(0).addClass('active');
+		objBigBox.css({'position':'relative','left': -(obj.find('.active').index() * smallBoxWidth)+'px','top':'0','width': bigBoxWidth+'px'});
+		obj.find('.arrow').css({'top': (obj.find('.active .pic').height() / 2)+'px'})
+		
+		var currentSmallBox = obj.find('.active');
+		var currentIndex = currentSmallBox.index() + 1;
+		var currentLeft = '0';
+		
+		
+		var boxscroll = function(){
+			objSmallBox.css({'width': viewWidth+'px'});
+			obj.find('.pic-slides-bd').css({'width': bigBoxWidth+'px'});
+			objSmallBox.eq(currentIndex-1).addClass('active').siblings().removeClass('active');
+
+			currentLeft = -((currentIndex-1)*smallBoxWidth);
+			objBigBox.css({'left': currentLeft+'px'});
+			obj.siblings('.txt-slides').find('.txt-slider-item').eq(currentIndex-1).addClass('active').siblings().removeClass('active');
+		}
+		
+		
+		var arrowPrev = function(){
+			if ( currentIndex <= objSBLength && currentIndex > 1){
+				currentIndex -= 1;
+				boxscroll();
+			}
+		}
+		var arrowNext = function(){
+			if ( currentIndex < objSBLength && currentIndex >= 1){
+				currentIndex += 1;
+				boxscroll();
+			}
+		}
+		objSmallBox.each(function(index){
+			var _this = $(this);
+			_this.click(function(){
+				currentIndex = $(this).index()+1;
+				boxscroll();
+			});
+		});
+		
+		obj.siblings('.arrow').find('li').eq(0).click(function(){
+			arrowPrev();
+		});
+		obj.siblings('.arrow').find('li').eq(1).click(function(){
+			arrowNext();
+		});
+	}
+	$(function(){
+		sysPro('.sysPro-slider .pic-slides');
+	});
+</script>	<a name="portfolio"></a>
+<link rel="stylesheet" type="text/css" href="http://legenddigital.com.au/static/gallery/lightbox/images/lightbox.css" />
+<script src="http://legenddigital.com.au/static/gallery/lightbox/js/jquery.lightbox.js"></script>
+<script>
+	var logos = [];
+</script>
+<div class="featured-works">
+	<div class="hd hd-01">
+		<h2>Featured Works</h2>
+	</div>
+	<div class="bd">
+		<div class="pic-list clearfix">
+							<div class="item" id="case_222">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/222" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2017-02/20170224131105181237_600x431_fill.jpg" width="600" alt="Flybee" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/222" target="_blank">Flybee</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_219">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/219" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-12/20161216102329974427_600x431_fill.jpg" width="600" alt="First Education" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/219" target="_blank">First Education</a></h3>
+							<p><em>Branding</em> - Vi / Graphic Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_217">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/217" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-11/20161121193051106073_600x431_fill.jpg" width="600" alt="KVB" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/217" target="_blank">KVB</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_215">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/215" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-09/20160928132757116689_600x431_fill.jpg" width="600" alt="Patager Branding and Website" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/215" target="_blank">Patager Branding and Website</a></h3>
+							<p><em>Branding</em> - Vi / Graphic Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_214">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/214" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-09/20160928114349158635_600x431_fill.jpg" width="600" alt="UBonus Rebranding" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/214" target="_blank">UBonus Rebranding</a></h3>
+							<p><em>Branding</em> - Vi / Graphic Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_212">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/212" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-08/20160809103608175423_600x431_fill.jpg" width="600" alt="Wexchange New version" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/212" target="_blank">Wexchange New version</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_210">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/210" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-09/20160901163605194815_600x431_fill.jpg" width="600" alt="AUNEWS" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/210" target="_blank">AUNEWS</a></h3>
+							<p><em>Branding</em> - Vi / Graphic Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_197">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/197" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-02/20160219164456212758_600x431_fill.jpg" width="600" alt="China Southern" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/197" target="_blank">China Southern</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_221">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/221" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2017-01/20170123162118440723_600x431_fill.gif" width="600" alt="AFN 澳洲财经见闻" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/221" target="_blank">AFN 澳洲财经见闻</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_220">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/220" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-12/20161219082909429174_600x431_fill.jpg" width="600" alt="Jarrah health" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/220" target="_blank">Jarrah health</a></h3>
+							<p><em>Branding</em> - Vi / Graphic Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_178">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/178" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-01/20160127174242394304_600x431_fill.jpg" width="600" alt="ANYING" /></span><video poster="/data/upload/thumbnails/2016-01/20160127174242394304_600x431_fill.jpg" loop preload><source src="/data/upload/2016-02/20160219124210101014.mp4" type="video/mp4"></video><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/178" target="_blank">ANYING</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_177">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/177" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-01/20160127174222138599_600x431_fill.jpg" width="600" alt="FORTUNE CAPITAL" /></span><video poster="/data/upload/thumbnails/2016-01/20160127174222138599_600x431_fill.jpg" loop preload><source src="/data/upload/2016-02/20160219124608125458.mp4" type="video/mp4"></video><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/177" target="_blank">FORTUNE CAPITAL</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_211">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/211" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-09/20160901164045178233_600x431_fill.jpg" width="600" alt="Collinstar" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/211" target="_blank">Collinstar</a></h3>
+							<p><em>Branding</em> - Vi / Graphic Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_175">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/175" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-03/20160301113836105510_600x431_fill.jpg" width="600" alt="Realeast Chinese" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/175" target="_blank">Realeast Chinese</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_174">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/174" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-01/20160127174125148312_600x431_fill.jpg" width="600" alt="Cozystay" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/174" target="_blank">Cozystay</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+											<div class="item" id="case_199">
+					<div class="item-wrapper">
+						<div class="pic"><a href="/cases/199" target="_blank"><span class="img-holder"><img src="/data/upload/thumbnails/2016-02/20160226213556809084_600x431_fill.jpg" width="600" alt="ANYING 信贷" /></span><span class="animate mask"></span></a></div>
+						<div class="text">
+							<h3><a href="/cases/199" target="_blank">ANYING 信贷</a></h3>
+							<p><em>Webdesign</em> - UI / Interaction Design</p>
+						</div>
+											</div>
+				</div>
+									</div>
+		<div class="more"><a href="/portfolio"><em>All Works</em></a></div>
+	</div>
+	<script>
+	var featScroll = true;
+	var fwrandom = function(){
+		return Math.floor(Math.random() * 7);
+	}
+	$(window).scroll(function(){
+		var _this = $('.featured-works .bd .pic-list');
+		if( $('.featured-works .bd').offset().top <= (parseInt($(window).scrollTop()) + parseInt(($(window).height() / 3))) && featScroll ){
+			featScroll = false;
+			var randArray = [];
+			var isRepeat = false;
+			var plays = function(){
+				for(var i=0; i<=randArray.length-1; i++ ){
+					if(_this.find('.item').eq(randArray[i]).find('video').length > 0){
+						_this.find('.item').eq(randArray[i]).find('video').show()
+						_this.find('.item').eq(randArray[i]).find('video').get(0).play();
+					}
+				}
+			};
+			var isRepeatFn = function(){
+				if( randArray.length >= 4){
+					plays();
+					return false;
+				}else if(randArray.length < 1){
+					var randValue = fwrandom();
+					randArray.push(randValue);
+					isRepeatFn();
+				}else{
+					isRepeat = false;
+					var randValue = fwrandom();
+					for(var i=0; i<=randArray.length-1; i++ ){
+						if( randValue == randArray[i] ){
+							isRepeat = true;
+						}
+					}
+					if (isRepeat == false){
+						randArray.push(randValue);
+					}
+					isRepeatFn();
+				}
+			};
+			isRepeatFn();
+		}
+	});
+	
+		$('.featured-works .bd .pic a').hover(function(){
+			$(this).find('video').show();
+			var _v = $(this).find('video')[0];
+			if (_v !== undefined) {
+				_v.play();
+			}
+		}, function(){
+			$(this).find('video').hide();
+			var _v = $(this).find('video')[0];
+			if (_v !== undefined) {
+				if (_v.readyState === 4) {
+					_v.currentTime = 0;
+					_v.pause();
+				}
+			}
+		});
+
+		$(".lightbox").lightbox({
+			fitToScreen: false,
+			imageClickClose: false,
+			fileLoadingImage: 'http://legenddigital.com.au/static/gallery/lightbox/images/loading.gif',
+			fileBottomNavCloseImage: 'http://legenddigital.com.au/static/gallery/lightbox/images/closelabel.gif'
+		});
+	</script>
+</div>	<div class="brands">
+	<div class="brands-wrapper">
+		<div class="pic-list clearfix">
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129144526201355_241x105_fill.jpg" width="241" alt="AIRLINES" /></div></div>
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129143239494634_241x105_fill.jpg" width="241" alt="CITIC" /></div></div>
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129143250599208_241x105_fill.jpg" width="241" alt="HEALTHY CARE" /></div></div>
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129143259516096_241x105_fill.jpg" width="241" alt="WECHAT" /></div></div>
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129143308167634_241x105_fill.jpg" width="241" alt="QQ" /></div></div>
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129143330142614_241x105_fill.jpg" width="241" alt="ANYING" /></div></div>
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129143338434873_241x105_fill.jpg" width="241" alt="AIMS" /></div></div>
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129143349165078_241x105_fill.jpg" width="241" alt="FORTUNE CAPITAL" /></div></div>
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129143401758437_241x105_fill.jpg" width="241" alt="EWE" /></div></div>
+							<div class="item"><div class="pic"><img src="/data/upload/thumbnails/2016-01/20160129143411161317_241x105_fill.jpg" width="241" alt="YEEYI" /></div></div>
+					</div>
+	</div>
+</div>	<a name="about"></a>
+<div class="about">
+	<h2>About Legend Digital Agency</h2>
+	<div class="intro">
+		<p>We are a digital agency not only creating world-class user experiences across web, ecommerce, and mobile <br/>platforms, but also delivering multidisciplinary marketing services based on deep industry knowledge and our <br/>longtime status as cultural touchstones in our field.</p>
+	</div>
+</div>
+<div class="about2">
+	<div class="about2-wrapper clearfix">
+		<div class="col col1">
+			<img src="http://legenddigital.com.au/themes/en/images/lwd_cart2_icon_01.png" alt="" />
+			<h3>Tailored </h3>
+			<p>Fully Tailored to <br/>your needs</p>
+		</div>
+		<div class="col col2">
+			<img src="http://legenddigital.com.au/themes/en/images/lwd_cart2_icon_02.png" alt="" />
+			<h3>Powerful </h3>
+			<p>Powerful functionality at <br/>your fingertips</p>
+		</div>
+		<div class="col col3">
+			<img src="http://legenddigital.com.au/themes/en/images/lwd_cart2_icon_03.png" alt="" />
+			<h3>Trust </h3>
+			<p>No hidden fees, No Long-term <br/>contracts</p>
+		</div>
+		<div class="col col4">
+			<img src="http://legenddigital.com.au/themes/en/images/lwd_cart2_icon_04.png" alt="" />
+			<h3>Support</h3>
+			<p>Comprehensive after-sale training <br/>Online marketing suggestions</p>
+		</div>
+	</div>
+</div>	<a name="contact"></a>
+<div class="let-talk">
+	<div class="let-talk-wrapper clearfix">	
+		<div class="hd">		
+			<h2>Let's Talk Business</h2>
+		</div>
+		<div class="bd">
+			<div class="contact-content" style="text-transform:uppercase;">
+				<p>Melbourne Office</p>
+				<p><img src="http://legenddigital.com.au/themes/en/images/map-marker.png" alt="" style="vertical-align:sub;" /> <strong>107E/517 Flinders Lane Melbourne 3000</strong></p>
+				<p>Local call :03 9560 4661  /  Internation call:+61 487 567 724</p>
+			</div>
+			<div class="contact-content" style="text-transform:uppercase;">
+				<p>Sydney office</p>
+				<p><img src="http://legenddigital.com.au/themes/en/images/map-marker.png" alt="" style="vertical-align:sub;" /> <strong>Lv 57, 19-29 Martin Place, Sydney NSW 2000</strong></p>
+				<p>Local call :1300 665 030  / Internation call:+61 487 567 724</p>
+			</div>
+			<div class="contact-form">
+				<form method="post" action="/contact.php">
+					<div class="row clearfix">
+						<div class="col">
+							<div class="input-box">
+								<input type="text" name="firstName" placeholder="*  First Name" />
+							</div>
+						</div>
+						<div class="col r">
+							<div class="input-box">
+								<input type="text" name="lastName" placeholder="*  Last Name"/>
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col">
+							<div class="input-box">
+								<input type="text" name="email" placeholder="*  Email" />
+							</div>
+						</div>
+						<div class="col r">
+							<div class="input-box">
+								<input type="text" name="phone" placeholder="*  Phone" />
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col">
+							<div class="input-box">
+								<input type="text" name="company" placeholder="Company" />
+							</div>
+						</div>
+						<div class="col r">
+							<div class="input-box">
+								<input type="text" name="state" placeholder="*  State" />
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col2">
+							<div class="input-box">
+								<textarea name="message" placeholder="Your Message"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col yzm">
+							<div class="input-box">
+								<input type="text" name="yzm" placeholder="*  Verification code" />
+							</div>
+							<div class="img"><img src="/verifycode.gif?w=120&h=40" width="120" height="40" alt="Click to change" onclick="this.src = '/verifycode.gif?w=120&h=40&rand='+Math.random();" /><a href="javascript:;" onclick="$(this).prev().attr('src', '/verifycode.gif?w=120&h=40&rand='+Math.random());">Click to change</a></div>
+						</div>
+					</div>
+					<div class="btns"><button type="submit"><em>Submit</em></button></div>
+				</form>
+				<script>
+					$('script:last').prev().find('.row .input-box').each(function(){
+						$(this).click(function(){
+							$(this).find('input, textarea').focus();
+						});
+					});
+					$('script:last').prev().submit(function(){
+						var _form = $(this);
+						var _action = _form.attr('action');
+						$('.response').remove();
+						_form.before('<p class="response">Sending...</p>');
+						var form = _form.get(0);
+						_form.find('button').attr('disable', true);
+						$.post(_action, {
+							firstName: form.firstName.value,
+							lastName: form.lastName.value,
+							email: form.email.value,
+							phone: form.phone.value,
+							company: form.company.value,
+							state: form.state.value,
+							message: form.message.value,
+							yzm: form.yzm.value
+						}, function(data){
+							_form.find('button').attr('disable', false);
+							$('.response').remove();
+							_form.before('<p class="response">'+data+'</p>');
+							$('.response').slideDown();
+							if(data=='Message sent! Thank you for your enquiry, we will contact you soon.') _form.slideUp().remove();
+						});
+						return false;
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+</div></div>
+
+<footer>
+	<div class="f-left">
+		<div class="links">
+			<span class="animate"><a href="#" class="f-mail"><img src="http://legenddigital.com.au/themes/en/images/f-mail2.png" /></a><a href="#" class="f-facebook"><img src="http://legenddigital.com.au/themes/en/images/f-facebook2.png" /></a><a href="#" class="f-twiiter"><img src="http://legenddigital.com.au/themes/en/images/f-twiiter2.png" /></a></span>
+			<a href="/terms-and-conditions">Terms and Conditions</a> - <a href="/privacy-policy">Privacy Policy</a>
+		</div>
+	</div>
+	<div class="f-nav">
+		<ul class="clearfix">
+			<li><a href="/" class="current"><img src="http://legenddigital.com.au/themes/en/images/nav-home.png" alt="Home" /><span>Home</span></a></li>
+			<li><a href="/#about"><img src="http://legenddigital.com.au/themes/en/images/nav-about.png" alt="About us" /><span>About us</span></a></li>
+			<li><a href="/web-design"><img src="http://legenddigital.com.au/themes/en/images/nav-webdesign.png" alt="Web design" /><span>Web design</span></a></li>
+			<li><a href="/ecommerce"><img src="http://legenddigital.com.au/themes/en/images/nav-ecommerce.png" alt="Ecommerce" /><span>Ecommerce</span></a></li>
+			<li><a href="/portfolio/picture-album"><img src="http://legenddigital.com.au/themes/en/images/nav-graphicdesign.png" alt="Graphic Design" /><span>Graphic Design</span></a></li>
+			<li><a href="/portfolio"><img src="http://legenddigital.com.au/themes/en/images/nav-portfolio.png" alt="Portfolio" /><span>Portfolio</span></a></li>
+			<li><a href="/#contact"><img src="http://legenddigital.com.au/themes/en/images/nav-contact.png" alt="Contact us" /><span>Contact us</span></a></li>
+		</ul>
+	</div>
+	</footer>
+
+<div class="r-share">
+	<a href="https://www.facebook.com/legendwebdesign" target="_blank" class="f"></a>
+	<a href="https://twitter.com/Legendinternet" target="_blank" class="t"></a>
+	<a href="javascript:;" target="_blank" class="l"></a>
+	<a href="javascript:;" target="_blank" class="w"><span><i class="img_01"><img src="http://legenddigital.com.au/themes/en/images/ewm1.jpg" /></i></span></a>
+</div>
+
+<!--div class="wechat">
+	<div class="close"><a href="javascript:;" title="关闭">X</a></div>
+	<div class="pic"><img src="http://legenddigital.com.au/themes/en/images/wechat.jpg" alt="About us" /></div>
+	<div class="txt">扫描二维码关注神话网络微信</p></div>
+</div>
+<script>
+	$('script:last').prev().find('.close').click(function(){
+		$(this).parent().hide();
+	});
+</script-->
+
+<div id="let-talk-window" class="let-talk-window">
+	<div class="let-talk-window-wrapper">
+		<div class="scrollBox-bds">
+			<a href="#" class="close" onclick="$(this).parent().parent().parent().hide(); $('body').css('overflow-y', 'auto'); return false;"></a>
+			<div class="hd">
+				<h2>Let's Talk Business</h2>
+			</div>
+			<div class="bd">
+				<div class="contact-content" style="text-transform:uppercase;">
+					<p>Melbourne Office</p>
+					<p>107E/517 Flinders Lane Melbourne 3000</p>
+					<p>Local call :03 9560 4661  /  Internation call:+61 487 567 724</p>
+				</div>
+				<div class="contact-content" style="text-transform:uppercase;">
+					<p>Sydney office</p>
+					<p>802/1-5 railway st chatswood NSW 2067 Australia</p>
+					<p>Local call :1300 665 030  / Internation call:+61 487 567 724</p>
+				</div>
+				<div class="contact-form">
+					<form method="post" action="/contact.php">
+						<div class="row clearfix">
+							<div class="col"><div class="input-box"><input type="text" name="firstName" placeholder="*  First Name"/></div></div>
+							<div class="col r"><div class="input-box"><input type="text" name="lastName" placeholder="*  Last Name" /></div></div>
+						</div>
+						<div class="row clearfix">
+							<div class="col"><div class="input-box"><input type="text" name="email" placeholder="*  Email" /></div></div>
+							<div class="col r"><div class="input-box"><input type="text" name="phone" placeholder="*  Phone" /></div></div>
+						</div>
+						<div class="row clearfix">
+							<div class="col"><div class="input-box"><input type="text" name="company" placeholder="Company" /></div></div>
+							<div class="col r"><div class="input-box"><input type="text" name="state" placeholder="*  State" /></div></div>
+						</div>
+						<div class="row clearfix">
+							<div class="col radio-group">
+								<h3>Services of Interest</h3>
+								<input type="checkbox" name="interest[]" id="interest1" value="Web Design" /><label for="interest1">Web Design</label><br />
+								<input type="checkbox" name="interest[]" id="interest2" value="Mobile AppDevelopment" /><label for="interest2">Mobile AppDevelopment</label><br />
+								<input type="checkbox" name="interest[]" id="interest3" value="Ecommerce Website" checked /><label for="interest3">Ecommerce Website</label><br />
+								<input type="checkbox" name="interest[]" id="interest4" value="Internet Marking & SEO" /><label for="interest4">Internet Marking & SEO</label><br />
+								<input type="checkbox" name="interest[]" id="interest5" value="Website Content Management System" /><label for="interest5">Website Content Management System</label>
+							</div>
+							<div class="col r"><div class="input-box"><textarea name="message" placeholder="Your Message"></textarea></div></div>
+						</div>
+						<div class="row clearfix">
+							<div class="col yzm">
+								<div class="input-box"><input type="text" name="yzm" /><input type="hidden" name="yzm_index" value="2" placeholder="*  Verification code" /></div>
+								<div class="img"><img src="/verifycode.gif?w=120&h=40&i=2" width="120" height="40" alt="Click to change" onclick="this.src = '/verifycode.gif?w=120&h=40&i=2&rand='+Math.random();" /><a href="javascript:;" onclick="$(this).prev().attr('src', '/verifycode.gif?w=120&h=40&i=2&rand='+Math.random());">Click to change</a></div>
+							</div>
+						</div>
+						<div class="btns"><button type="submit" class="button2"><em>Submit</em></button></div>
+					</form>
+					<script>
+						/*$('script:last').prev().find('.row span').each(function(){
+							$(this).click(function(){
+								$(this).hide().prev().focus();
+							}).prev().focus(function(){
+								$(this).next('span').hide();
+							}).blur(function(){
+								if ($(this).val() == '') $(this).next('span').show();
+							});
+						});*/
+						$('script:last').prev().find('.row .input-box').each(function(){
+							$(this).click(function(){
+								$(this).find('input, textarea').focus();
+							});
+						});
+						$('script:last').prev().submit(function(){
+							var _form = $(this);
+							var _action = _form.attr('action');
+							$('.response').remove();
+							_form.before('<p class="response">Sending...</p>');
+							var form = _form.get(0);
+							_form.find('button').attr('disable', true);
+							$.post(_action, {
+								firstName: form.firstName.value,
+								lastName: form.lastName.value,
+								email: form.email.value,
+								phone: form.phone.value,
+								company: form.company.value,
+								state: form.state.value,
+								interest: _form.find('input[name="interest[]"]:checked').map(function(){ return $(this).val() }).get().join(','),
+								message: form.message.value,
+								yzm: form.yzm.value,
+								yzm_index: form.yzm_index.value
+							}, function(data){
+								_form.find('button').attr('disable', false);
+								$('.response').remove();
+								_form.before('<p class="response">'+data+'</p>');
+								$('.response').slideDown();
+								if(data=='Message sent! Thank you for your enquiry, we will contact you soon.') {
+									//_form.remove();
+									_form.hide();
+								}
+							});
+							return false;
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		
+<!--script>
+
+var pn = location.pathname;
+var pnAy = pn.split('/');
+console.log(pnAy[1]);
+if(pnAy[1] !== 'cases'){
+
+(function(){	$('body').css({'height':'100%','overflow-y':'hidden'});	$('.loading2').show();	$('.loading2').get(0).addEventListener('touchmove', function(e){		e.preventDefault();	});	var loadingValue = 0;	var backLoadingValue = function(){		loadingValue += (100 / imgArray.length);		if(loadingValue >= 100 || loadingValue >= 99.9){			loadingValue = 100;			$('.loading2').fadeOut();			$('body').css({'height':'auto','overflow-y':'auto'});			$('body').animate({'scrollTop': 0}, 10);		}	};	var imgArray = (function(){		var ay = [];		$('body img').each(function(){			ay.push($(this).attr('src'));		});		return ay;	})();	var isLoad = function(){		for(var i=0; i<imgArray.length; i++){			var img = new Image();			img.src = imgArray[i];			if(img.complete){				backLoadingValue();			}else{				img.onload = function(){					backLoadingValue();				};				img.onerror = function(){					backLoadingValue();				};			}		}	};	isLoad();}());
+
+}else{
+	$('.loading2').hide();
+}
+</script-->
+<script type="text/javascript" src="http://legenddigital.com.au/themes/en/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="http://legenddigital.com.au/themes/en/js/perfect-scrollbar.js"></script>
+<script>
+	if( $('.let-talk-window-wrapper').length > 0 ){
+		$('.let-talk-window-wrapper').perfectScrollbar();
+	}
+	
+	$(window).resize(function(){
+		if( $('.let-talk-window-wrapper').length > 0 ){
+			$('.let-talk-window-wrapper').perfectScrollbar('update');
+		}
+	});
+	
+	$('#let-talk-window').click(function(){
+		$(this).hide();
+		$('body').css('overflow-y', 'auto');
+	}).find('.let-talk-window-wrapper').click(function(e){
+		e.stopPropagation();
+	});
+</script>
+		
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43851775-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?9988ff3f435cf8dd81255b1d86693678";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+	$(window).scroll(function(){
+		setViews();
+	});
+	setViews();
+	function setViews() {
+		$('.main > div').each(function(){
+			if ($(this).offset().top <= $(window).scrollTop() + $(window).height()) {
+				$(this).addClass('in-view').removeClass('not-in-view');
+			}
+			else {
+				$(this).removeClass('in-view').addClass('not-in-view');
+			}
+		});
+	}
+</script>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=en"></script>
+<script type="text/javascript" src="http://legenddigital.com.au/static/layer/layer.min.js"></script>
+<script>
+	var myOptions = {
+		zoom : 18,
+		mapTypeId : google.maps.MapTypeId.ROADMAP
+	};
+	var bigMap = null;
+	var directionsDisplay;
+	var directionsService = new google.maps.DirectionsService();
+
+	function openMapWindow() {
+		var layerObj = $.layer({
+			type : 1,
+			title : false,
+			fix : false,
+			offset:['50px' , ''],
+			area : ['90%','auto'],
+			page : {dom : '#layerBox'}
+		});
+		var markerLocation = null;
+		//生成地图
+		bigMap = new google.maps.Map(document.getElementById('mapContainer'), myOptions);
+		var marker = null;
+
+		markerLocation = new google.maps.LatLng(-37.9160978,145.14866889999996);
+		marker = new google.maps.Marker({
+			position: markerLocation,
+			map: bigMap
+		});
+		bigMap.setCenter(markerLocation);
+	}
+
+	function searchDirection() {
+		var _startObj = $('#layerBox input[name="start"]');
+		var _finishObj = $('#layerBox input[name="finish"]');
+		if ( _startObj.val() == '' || _finishObj.val() == '' ) {
+			alert('Please enter start and finish address!');
+			return false;
+		}
+
+		directionsDisplay = new google.maps.DirectionsRenderer();
+		directionsDisplay.setMap(bigMap);
+		var request = {
+			origin: _startObj.val(),
+			destination: _finishObj.val(),
+			travelMode: google.maps.DirectionsTravelMode.DRIVING
+		};
+		directionsService.route(request, function(response, status){
+			if (status == google.maps.DirectionsStatus.OK) {
+				directionsDisplay.setDirections(response);
+			}
+		});
+	}
+</script>
+<div id="layerBox" class="layerBox">
+	<div class="wrapper clearfix">
+		<div class="search">
+			<span><label>Start</label><input type="text" name="start" /></span>
+			<span><label>Finish</label><input type="text" name="finish" value="30/195 Wellington Rd Clayton VIC Melbourne 3168 Australia" /></span>
+			<button type="button" onclick="searchDirection(); return false;">Search</button>
+		</div>
+		<div class="map-content">
+			<div id="mapContainer"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
