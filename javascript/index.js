@@ -189,27 +189,33 @@ $(function () {
 
 //    服务部分
     $(function(){
+        //获取class为marketing-slider的div
         var s = $('.marketing-slider');
+        //遍历class为slides的ul
         var sUl = s.find('.slides');
+        //遍历ul下面的li
         var sLi = s.find('.slides li');
+        //获取li的长度
         var sLength = s.find('.slides li').length;
-
+        //获取s的宽度
         var vWidth = s.outerWidth();
         var vNum = 3;
+        //显示的每张图片的宽度
         var sLiBigWidth = vWidth / vNum;
+        //每张图片的宽度
         var sLiSmallWidth = sLiBigWidth * 0.8;
 
         var isScroll = true;
         var sTime = null;
 
-
+        //在li前面复制
         for( var i = sLength; i >= 1; i--){
             sLi.eq(i-1).clone().addClass('clone').removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2}).prependTo(sUl);
         }
+        //在li后面复制
         for( var i = 1; i <= sLength; i++){
             sLi.eq(i-1).clone().addClass('clone').removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2}).appendTo(sUl);
         }
-
         var sInit = function(){
             if( !sTime ){
                 clearTimeout(sTime);
@@ -225,12 +231,12 @@ $(function () {
             for( var i=sLength; i< sLength+vNum; i++ ){
                 sLi.eq(i).addClass('active').css({'width': sLiBigWidth,'margin-top':0 });
             }
-            s.find('.arrow').css({'top': sLiBigWidth/2 })
+            s.find('.arrow').css({'top': sLiBigWidth/2 });
             s.height(sUl.height());
             setTimeout(function(){
                 s.height(sUl.height());
             },600);
-        }
+        };
         sInit();
 
         var slider_arrow_prev = function(){
@@ -248,7 +254,7 @@ $(function () {
             sUl.css({'left': (parseInt(sUl.css('left'))) - (sLiSmallWidth * 3) });
             s.find('.slides li:gt('+(sLength*3 -vNum)+')').prependTo(sUl);
             sUl.animate({'left': (sLiSmallWidth * 3) + (parseInt(sUl.css('left')))  },1000,'swing',function(){ isScroll = true;});
-        }
+        };
 
         var slider_arrow_next = function(){
             if( !isScroll ){
@@ -278,4 +284,75 @@ $(function () {
             sInit();
         });
     });
+    
+    $(function () {
+        var sysPro = function(obj){
+            var obj = $(obj);
+            var objBigBox = obj.find('.slides');
+            var objSmallBox = obj.find('.slides li');
+            var objSBLength = obj.find('.slides li').length;
+            var viewWidth = obj.outerWidth();
+            var smallBoxWidth = viewWidth;
+            var bigBoxWidth = ((objSBLength - 1) * smallBoxWidth) + viewWidth;
+
+            var init = function(){
+                viewWidth = obj.outerWidth();
+                smallBoxWidth = viewWidth;
+                bigBoxWidth = ((objSBLength - 1) * smallBoxWidth) + viewWidth;
+            }
+
+            obj.find('.pic-slides-bd').css({'width': bigBoxWidth+'px'});
+            objSmallBox.css({'width': viewWidth+'px'});
+            objSmallBox.eq(0).addClass('active');
+            obj.siblings('.txt-slides').find('.txt-slider-item').eq(0).addClass('active');
+            objBigBox.css({'position':'relative','left': -(obj.find('.active').index() * smallBoxWidth)+'px','top':'0','width': bigBoxWidth+'px'});
+            obj.find('.arrow').css({'top': (obj.find('.active .pic').height() / 2)+'px'})
+
+            var currentSmallBox = obj.find('.active');
+            var currentIndex = currentSmallBox.index() + 1;
+            var currentLeft = '0';
+
+
+            var boxscroll = function(){
+                objSmallBox.css({'width': viewWidth+'px'});
+                obj.find('.pic-slides-bd').css({'width': bigBoxWidth+'px'});
+                objSmallBox.eq(currentIndex-1).addClass('active').siblings().removeClass('active');
+
+                currentLeft = -((currentIndex-1)*smallBoxWidth);
+                objBigBox.css({'left': currentLeft+'px'});
+                obj.siblings('.txt-slides').find('.txt-slider-item').eq(currentIndex-1).addClass('active').siblings().removeClass('active');
+            }
+
+
+            var arrowPrev = function(){
+                if ( currentIndex <= objSBLength && currentIndex > 1){
+                    currentIndex -= 1;
+                    boxscroll();
+                }
+            }
+            var arrowNext = function(){
+                if ( currentIndex < objSBLength && currentIndex >= 1){
+                    currentIndex += 1;
+                    boxscroll();
+                }
+            }
+            objSmallBox.each(function(index){
+                var _this = $(this);
+                _this.click(function(){
+                    currentIndex = $(this).index()+1;
+                    boxscroll();
+                });
+            });
+
+            obj.siblings('.arrow').find('li').eq(0).click(function(){
+                arrowPrev();
+            });
+            obj.siblings('.arrow').find('li').eq(1).click(function(){
+                arrowNext();
+            });
+        }
+        $(function(){
+            sysPro('.sysPro-slider .pic-slides');
+        });
+    })
 });

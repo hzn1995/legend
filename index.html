@@ -7,10 +7,9 @@
 
 <title>Legend Digital agency - Web development,Logo design,Ecommerce web design ,Graphic Design</title>
 <meta name="description" content="Melbourne  Legend web design provide full range of website construction which includes website planning, website design, website construction, Logo design, system development, promotion and communication, operations guide, website maintenance and oth">
-	<link rel="stylesheet" href="css/global.css"/>
-	<link rel="stylesheet" href="css/default.css"/>
-	<link rel="stylesheet" href="css/perfect-scrollerbar.css"/>
-
+<link rel="stylesheet" href="css/global.css"/>
+<link rel="stylesheet" href="css/default.css"/>
+<link rel="stylesheet" href="css/perfect-scrollerbar.css"/>
 <link href="http://legenddigital.com.au/favicon.ico" mce_href="/favicon.ico" rel="bookmark" type="image/x-icon">
 <link href="favicon.ico" mce_href="/favicon.ico" rel="icon" type="image/x-icon">
 <link href="favicon.ico" mce_href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -19,8 +18,9 @@
 <script src="javascript/jquery.easing.min.js"></script>
 <script src="javascript/hammer.min.js"></script>
 <!--[if IE]>
-<script src="javascript/http://legenddigital.com.au/themes/en/js/html5.js"></script>
+<!--<script src="javascript/http://legenddigital.com.au/themes/en/js/html5.js"></script>-->
 <![endif]-->
+	<script src="./javascript/index.js"></script>
 <script>
 
 	var hash = window.location.hash;
@@ -44,49 +44,40 @@
 		}
 	}
 </script>
-
-<link media="all" href="css/index.css" type="text/css" rel="stylesheet">
 </head>
 <body style="padding: 0px ! important;">
-
-	<div class="loading2">
-		<div class="loader">
-			<div class="loader-inner pacman">
-			  <div></div>
-			  <div></div>
-			  <div></div>
-			  <div></div>
-			  <div></div>
-			</div>
-		</div>
-	</div>
 <header>
 	<div class="indHeader headers clearfix">
-		<h1 class="logos logo1"><a href="http://legenddigital.com.au/"><img src="image/logo-white.png" alt="Legend Digital agency"></a></h1>
-		<div class="nav phoneNav">
-			<ul class="animate phone clearfix">
-				<li><a href="http://legenddigital.com.au/" class="current">Home</a></li>
-				<li><a href="http://legenddigital.com.au/#about">About us</a></li>
-				<li><a href="http://legenddigital.com.au/web-design">Web design</a></li>
-				<li><a href="http://legenddigital.com.au/ecommerce">Ecommerce</a></li>
-				<li><a href="http://legenddigital.com.au/portfolio/picture-album">Graphic Design</a></li>
-				<li><a href="http://legenddigital.com.au/#portfolio">Portfolio</a></li>
-				<li><a href="http://legenddigital.com.au/#contact">Contact us</a></li>
-				<li class="phoneShow"><a href="http://legenddigital.com.au/cn/" class="cn">中文</a></li>
-				<li class="phoneShow"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', 'image//verifycode.gif?w=120&amp;h=40&amp;i=2&amp;rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></li>
+		<h1 class="logos logo1"><a href="index.html"><img src="image/logo-white.png" alt="神话数字传媒"></a></h1>
+		<div class="nav Nav phoneNav">
+			<ul class="animate  clearfix">
+				<li><a href="index.html" class="current"><span>首页</span></a></li>
+				<li><a href="#about"><span>关于我们</span></a></li>
+				<li><a href="#services"><span>服务</span></a></li>
+				<li><a href="#portfolio"><span>投资组合</span></a></li>
+				<li><a href="#contact"><span>联系我们</span></a></li>
+				<li class="Show"><a href="javascript:void(0)" class="cn">中文</a></li>
+				<li class="Show j_get"><a href="#" onclick="">获取报价</a></li>
 			</ul>
 		</div>
 		<div class="navBtn"><span><i></i><i></i><i></i></span></div>
 		<div class="langs">
-			<a href="http://legenddigital.com.au/cn/" class="cn">中文</a>
+			<a href="javascript:'';" class="cn">中文</a>
 		</div>
 		<div class="header-tel">CALL: 1300 665 030</div>
-		<div class="animate quote clearfix"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').css('margin-top', $(window).scrollTop()).show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', 'image//verifycode.gif?w=120&amp;h=40&amp;i=2&amp;rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></div>
+		<div class="animate quote clearfix">
+			<a href="#" class="j_get">
+				获取报价
+			</a>
+		</div>
 	</div>
-	
-	
+	<!-- 鼠标轮播开始-->
 	<div class="banner" style="height: 701px;">
-		<ul class="arrows clearfix"><li class="active"></li><li></li><li></li></ul>
+		<ul class="arrows clearfix">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+		</ul>
 		<ul class="banner-slides">
 			<li class="active">
 				<video autoplay="" loop="" id="video" poster="" style="display: block;">
@@ -97,363 +88,182 @@
 				<div class="banner-txt">
 					<div class="banner-txt-bd cssTable">
 						<div class="cssTd">
-							<div class="banner-text1">Why choose us?</div>
+							<div class="banner-text1">什么是数字传媒?</div>
 							<div class="banner-text2">
-								<!--p>We are results- oriented, committed to help customers build and maintain the brand image in the rapidly changing world. </p-->
-								<p>We have extensive marketing resources, maintaining the long-standing relations with leading network platforms. </p>
-								<p>We specialise in branding, design consulting, web,software and application <br>development and network promotion. </p>
+								<p>我们提供一站式互联网媒体营销方案，包括数字营销，品牌设计，网页设计</p>
+								<p>APP开发微信开发和跨平台系统开发等业务 </p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</li>
-			<li style="background: transparent url('image/banner_bg_01.jpg') no-repeat scroll center center / cover ;">
+			<li style="background: transparent url('./image/banner_bg_01.jpg') no-repeat scroll center center / cover ;">
 				<div class="txt">
 					<h2>神话出品，原生态App</h2>
 					<h2>正式上线</h2>
 					<div class="logos clearfix">
-						<span><img src="image/banner_logo_01.png"></span>
-						<span><img src="image/banner_ewm_01.jpg"></span>
+						<span><img src="./image/banner_logo_01.png"></span>
+						<span><img src="./image/banner_ewm_01.jpg"></span>
 					</div>
-					<div class="app-img-link clearfix"><a href="http://legenddigital.com.au/"><img src="image/banner_btn_01.png"></a></div>
+					<div class="app-img-link clearfix">
+						<a href="index.html"><img src="image/banner_btn_01.png"></a>
+					</div>
 				</div>
 				<div class="img">
-					<img src="image/banner_img_01.png">
+					<img src="./image/banner_img_01.png">
 				</div>
 			</li>
 			<li style="background: transparent url('image/banner_bg_02.jpg') no-repeat scroll center center / cover ;">
 				<div class="txt2">
 					<h3><img src="image/banner_txt_02.png"></h3>
 					<h4><img src="image/banner_txt_03.png"></h4>
-					<p class="article">Australian Chinese Age (ACA) Newspaper Group is one of the <br>largest Chinese newspaper groups in Australia</p>
-					<div class="web-link clearfix"><a href="http://legenddigital.com.au/cases/175" target="_top">Launch site</a></div>
+					<p class="article">澳大利亚华人报业集团是 <br>澳大利亚最大的中国报业集团之一</p>
+					<div class="web-link clearfix"><a href="JavaScript:'';">发射网站</a></div>
 				</div>
 			</li>
 		</ul>
 		<div class="next banner-click"><a href="#services" class="animate click" onclick="return false;" ;=""><img src="image/banner-click.png" alt="click"></a></div>
 	</div>
-	<script>
-		if($(window).width()<=768){
-			$('.banner .banner-slides li').eq(0).remove();
-			$('.banner .banner-slides li').eq(0).addClass('active');
-			bannerFun();
-		}else{
-			$('.pcBanner').show();
-			$('.banner .grid-filter, .banner .blue-filter').hide();
-			$('.banner .banner-slides video').hide().bind('canplay', function(){
-				$(this).show();
-				$('.banner .grid-filter, .banner .blue-filter').show();
-				$(window).resize(function(){
-					if ( $('header nav .phone').is(':hidden') ) $('.banner').height(parseInt(720*($(window).width()/1280)));
-				});
-			});
-			bannerFun();
-		}
-		function bannerFun(){
-			$('.banner').height($(window).height());
-			var curIndex = 0;
-			var minIndex = 0;
-			var maxIndex = $('.banner .banner-slides li').length - 1;
-			$('.banner .arrows').html('');
-			for(var i=0; i<=maxIndex; i++){
-				$('.banner .arrows').append('<li></li>');
-			}
-			$('.banner .arrows li').eq(0).addClass('active');
-			var getIndex = function(index){
-				if(index <= minIndex){
-					curIndex = minIndex;
-					return curIndex;
-				}else if(index >= maxIndex){
-					curIndex = maxIndex;
-					return curIndex;
-				}else{
-					curIndex = index;
-					return curIndex;
-				}
-			};
-			$('.banner .next').click(function(){
-				if(curIndex + 1 > maxIndex){
-					$('.banner').slideUp('300', function(){
-						$('.indHeader2').parent().css({ 'height':$('.indHeader2').outerHeight(true) });
-						$('.indHeader2').addClass('on');
-					});
-				}else{
-					$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
-					$('.banner .banner-slides li').eq(getIndex(curIndex+1)).fadeIn('300', function(){$(this).addClass('active')});
-					$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
-				}
-			});
-			$('.banner .arrows li').each(function(index){
-				$(this).click(function(){
-					if(curIndex != index){
-						$(this).addClass('active').siblings().removeClass('active');
-						$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
-						$('.banner .banner-slides li').eq(getIndex(index)).fadeIn('300', function(){$(this).addClass('active')});
-					}
-				});
-			});
+	<!-- 鼠标轮播结束-->
 
-			var startPos = 0,
-				endPos = 0;
-			$('.banner').bind('touchstart', function(e){
-				startPos = e.originalEvent.targetTouches[0].screenY;
-				endPos = 0;
-			});
-			$('.banner').bind('touchmove', function(e){
-				e.preventDefault();
-				endPos = e.originalEvent.targetTouches[0].screenY;
-			});
-			$('.banner').bind('touchend', function(){
-				var v = endPos - startPos;
-				if(Math.abs(v) > 20 && endPos != 0){
-					if(v < 0){
-						if(curIndex + 1 > maxIndex){
-							$('.banner').slideUp('300', function(){
-								$('.indHeader2').parent().css({ 'height':$('.indHeader2').outerHeight(true) });
-								$('.indHeader2').addClass('on');
-							});
-						}else{
-							$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
-							$('.banner .banner-slides li').eq(getIndex(curIndex+1)).fadeIn('300', function(){$(this).addClass('active')});
-							$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
-						}
-					}else{
-						if(curIndex - 1 < minIndex){
-						}else{
-							$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
-							$('.banner .banner-slides li').eq(getIndex(curIndex-1)).fadeIn('300', function(){$(this).addClass('active')});
-							$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
-						}
-					}
-				}
-			});
-			
-			
-			$('.banner .banner-slides').bind('mousewheel', function(event, delta, deltaX, deltaY){
-				if(deltaY < 0){
-					if(curIndex + 1 > maxIndex){
-						event.preventDefault();
-						$('.banner').slideUp('300', function(){
-							$('.indHeader2').parent().css({ 'height':$('.indHeader2').outerHeight(true) });
-							$('.indHeader2').addClass('on');
-						});
-					}else{
-						event.preventDefault();
-						$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
-						$('.banner .banner-slides li').eq(getIndex(curIndex+1)).fadeIn('300', function(){$(this).addClass('active')});
-						$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
-					}
-				}else{
-					if(curIndex - 1 < minIndex){
-
-					}else{
-						$('.banner .banner-slides li').eq(curIndex).removeClass('active').fadeOut('300');
-						$('.banner .banner-slides li').eq(getIndex(curIndex-1)).fadeIn('300', function(){$(this).addClass('active')});
-						$('.banner .arrows li').eq(curIndex).addClass('active').siblings().removeClass('active');
-					}
-				}
-			});
-
-			$(window).scroll(function(){
-				if($(window).scrollTop() <= 0){
-					$('.banner').slideDown('300');
-				}
-			});
-			$(window).resize(function(){
-				$('.banner').height($(window).height());
-			});
-			
-		}
-	</script>
-	
+	<!-- 导航开始-->
 	<div class="header-box">
 		<div class="indHeader2 headers clearfix">
-			<h1 class="logos logo2"><a href="http://legenddigital.com.au/"><img src="image/logo.jpg" alt="Legend Digital agency"></a></h1>
-			<div class="nav phoneNav">
+			<h1 class="logos logo2"><a href="index.html"><img src="image/logo.jpg" alt="Legend Digital agency"></a></h1>
+			<div class="nav Nav phoneNav">
 				<ul class="animate clearfix">
-					<li><a href="http://legenddigital.com.au/" class="current"><span>Home</span></a></li>
-					<li><a href="http://legenddigital.com.au/#about" onclick="return false;"><span>About us</span></a></li>
-					<li><a href="http://legenddigital.com.au/#services"><span>Services</span></a></li>
-					<li><a href="http://legenddigital.com.au/#portfolio" onclick="return false;"><span>Portfolio</span></a></li>
-					<li><a href="http://legenddigital.com.au/#contact" onclick="return false;"><span>Contact us</span></a></li>
-					<li class="phoneShow"><a href="http://legenddigital.com.au/cn/" class="cn">中文</a></li>
-					<li class="phoneShow"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', 'image//verifycode.gif?w=120&amp;h=40&amp;i=2&amp;rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></li>
+					<li><a href="index.html" class="current"><span>首页</span></a></li>
+					<li><a href="#about"><span>关于我们</span></a></li>
+					<li><a href="#services"><span>服务</span></a></li>
+					<li><a href="#portfolio"><span>投资组合</span></a></li>
+					<li><a href="#contact"><span>联系我们</span></a></li>
+					<li class="Show"><a href="javascript:void(0)" class="cn">中文</a></li>
+					<li class="Show j_get"><a href="#" onclick="">获取报价</a></li>
 				</ul>
 			</div>
-			<script>
-				var _navUl = $('script:last').prev().find('ul');
-				_navUl.find('a').click(function(){
-					setLocation($(this).attr('href'));
-				})
-			</script>
 			<div class="navBtn"><span><i></i><i></i><i></i></span></div>
-			<div class="nav">
-				<ul class="animate clearfix">
-					<li><a href="http://legenddigital.com.au/" class="current"><span>Home</span></a></li>
-					<li><a href="http://legenddigital.com.au/#about" onclick="return false;"><span>About us</span></a></li>
-					<li><a href="http://legenddigital.com.au/#services"><span>Services</span></a></li>
-					<li><a href="http://legenddigital.com.au/#portfolio" onclick="return false;"><span>Portfolio</span></a></li>
-					<li><a href="http://legenddigital.com.au/#contact" onclick="return false;"><span>Contact us</span></a></li>
-					<li class="phoneShow"><a href="http://legenddigital.com.au/cn/" class="en">中文</a></li>
-					<li class="phoneShow"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').css('margin-top', $(window).scrollTop()).show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', 'image//verifycode.gif?w=120&amp;h=40&amp;i=2&amp;rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></li>
-				</ul>
-			</div>
-			<script>
-				var _navUl = $('script:last').prev().find('ul');
-				_navUl.find('a').click(function(){
-					setLocation($(this).attr('href'));
-				})
-			</script>
-			<div class="animate quote clearfix"><a href="#" onclick="$('body').css('overflow-y', 'hidden'); $('#let-talk-window').css('margin-top', $(window).scrollTop()).show(); $('#let-talk-window form').show(); $('#let-talk-window .input-box').find('input[type=\'text\'], textarea').val(''); $('#let-talk-window form .yzm img').attr('src', 'image//verifycode.gif?w=120&amp;h=40&amp;i=2&amp;rand='+Math.random()); $('.response').remove(); return false;">Get A Quote</a></div>
+			<div class="animate quote clearfix"><a href="#" class="j_get">获取报价</a></div>
 		</div>
 	</div>
-	
+	<!-- 导航结束-->
+
+	<!-- 服务开始-->
 	<a name="services"></a>
 	<div class="banner-img" style="position: relative;">
 		<div class="hd hd-01">
-			<h2>OUR SERVICES.</h2>
+			<h2>我们的服务。</h2>
 		</div>
-		<img src="image/lwd_banner_people.jpg" alt="">
+		<img src="image/lwd_banner_people.jpg" alt="our services">
 	</div>
 </header>
-
-<script>
-	var isShowNav = true;
-	$('.navBtn').each(function(){
-		var _this = $(this);
-		_this.click(function(e){
-			e.stopPropagation();
-			if( isShowNav ){
-				_this.parent().addClass('menuOn');
-				_this.addClass('on');
-				_this.siblings('.phoneNav').addClass('on');
-				isShowNav = false;
-			}else{
-				_this.parent().removeClass('menuOn');
-				_this.removeClass('on');
-				_this.siblings('.phoneNav').removeClass('on');
-				isShowNav = true;
-			}
-		});
-	});
-	$('body').click(function(){
-		if(!isShowNav){
-			isShowNav = true;
-			$('.navBtn').parent().removeClass('menuOn');
-			$('.navBtn').removeClass('on');
-			$('.navBtn').siblings('.phoneNav').removeClass('on');
-		}
-	});
-	
-	$(window).scroll(function(){
-		if( $('.indHeader2').parent().offset().top <= $(window).scrollTop() ){
-			$('.indHeader2').parent().css({ 'height':$('.indHeader2').outerHeight(true) });
-			$('.indHeader2').addClass('on');
-			$('.indHeader').addClass('unon');
-		}else{
-			$('.indHeader2').parent().removeAttr('style');
-			$('.indHeader2').removeClass('on');
-			$('.indHeader').removeClass('unon');
-		}
-	});
-</script>
-	
 <div class="main">
 	<div class="why-choose-us not-in-view">
 	<div class="wcu-wrapper clearfix">
 		<div class="col first">
 			<div class="animate">
 				<div class="new-icon niba1"><i></i></div>
-				<h3>Website development</h3>
-				<p>PC+ Mobile Version, Original Design with Custom Development</p>
+				<h3>网站开发</h3>
+				<p>PC +手机网页高端原创定制开发</p>
 			</div>
 		</div>
 		<div class="col">
 			<div class="animate">
 				<div class="new-icon niba2"><i></i></div>
-				<h3>Branding</h3>
-				<p>Branding/VI, Brand Strategy, Marketing Positioning</p>
+				<h3>品牌</h3>
+				<p>品牌设计，品牌策略，市场定位</p>
 			</div>
 		</div>
 		<div class="col">
 			<div class="animate">
 				<div class="new-icon niba3"><i></i></div>
-				<h3>Marketing</h3>
-				<p>Marketing Solutions, Search Engine, Social Media, Traditional Media</p>
+				<h3>营销</h3>
+				<p>营销方案微信营销搜索引擎社会媒体传媒纸媒微信运营</p>
 			</div>
 		</div>
 		<div class="col">
 			<div class="animate">
 				<div class="new-icon niba4"><i></i></div>
-				<h3>App &amp; Software</h3>
-				<p>Application Custom Development</p>
+				<h3>应用软件</h3>
+				<p>原生APP定制开发，微信定制开发</p>
 			</div>
 		</div>
 		<div class="col">
 			<div class="animate">
 				<div class="new-icon niba5"><i></i></div>
-				<h3>Software</h3>
-				<p>SME Software Development Solutions</p>
+				<h3>软件</h3>
+				<p>中小型企业软件开发解决方案</p>
 			</div>
 		</div>
 		<div class="col">
 			<div class="animate">
 				<div class="new-icon niba6"><i></i></div>
-				<h3>Australia-China one-stop solution</h3>
-				<p>Australia-China Enterprise <br>E-Marketing solution</p>
+				<h3>澳中一站式解决方案</h3>
+				<p>中澳双向企业互联网解决营销方案</p>
 			</div>
 		</div>
 	</div>
-</div>	<script>
-		if ( $('header nav .phone').is(':hidden') ) $('.banner').height(parseInt(720*($(window).width()/1280)));
-		//$('.banner-img').css('position', 'absolute');
-	</script>
+</div>
+
 	<a name="marketing"></a>
 <div class="marketing not-in-view">
 	<div class="hd hd-02">
-		<h2>Brand Integrated Marketing Services</h2>
-		<p>Successful Case</p>
+		<h2>品牌综合营销服务</h2>
+		<p>神话已为下方活动成功策划了营销服务</p>
 	</div>
 	<div class="bd">
 		<div class="marketing-slider" style="height: 384px;">
-			<ul class="arrow" style="top: 142.5px;"><li class="prev"><a href="javascript:;">prev</a></li><li class="next"><a href="javascript:;">next</a></li></ul>
-			<ul class="slides clearfix" style="left: -1824px; width: 5643px;"><li class="clone" style="width: 228px; margin-top: 28.5px;">
+			<ul class="arrow" style="top: 142.5px;">
+				<li class="prev">
+					<a href="javascript:;">prev</a>
+				</li>
+				<li class="next">
+					<a href="javascript:;">next</a>
+				</li>
+			</ul>
+			<ul class="slides clearfix" style="left: -1824px; width: 5643px;">
+				<li class="clone" style="width: 228px; margin-top: 28.5px;">
 						<div class="box">
-							<div class="pic"><a href="http://legenddigital.com.au/marketing/202" target="_top"><img src="image/20160304115329572672_300x300_cut.jpg" alt="BIG BANG澳大利亚演唱会 刷脸赢门票"></a></div>
-							<div class="txt"><a href="http://legenddigital.com.au/marketing/202" target="_top">BIG BANG澳大利亚演唱会 刷脸赢门票</a></div>
-							<div class="btn"><a href="http://legenddigital.com.au/marketing/202" target="_top">View more</a></div>
+							<div class="pic"><a href="#"><img src="image/20160304115329572672_300x300_cut.jpg" alt="BIG BANG澳大利亚演唱会 刷脸赢门票"></a></div>
+							<div class="txt"><a href="#">BIG BANG澳大利亚演唱会 刷脸赢门票</a></div>
+							<div class="btn"><a href="#">View more</a></div>
 						</div>
-					</li><li class="clone" style="width: 228px; margin-top: 28.5px;">
+					</li>
+				<li class="clone" style="width: 228px; margin-top: 28.5px;">
 						<div class="box">
-							<div class="pic"><a href="http://legenddigital.com.au/marketing/198" target="_top"><img src="image/20160225112313161682_300x300_cut.jpg" alt="腾讯全民经纪人"></a></div>
-							<div class="txt"><a href="http://legenddigital.com.au/marketing/198" target="_top">腾讯全民经纪人</a></div>
-							<div class="btn"><a href="http://legenddigital.com.au/marketing/198" target="_top">View more</a></div>
+							<div class="pic"><a href="#"><img src="image/20160225112313161682_300x300_cut.jpg" alt="腾讯全民经纪人"></a></div>
+							<div class="txt"><a href="#">腾讯全民经纪人</a></div>
+							<div class="btn"><a href="#">View more</a></div>
 						</div>
-					</li><li class="clone" style="width: 228px; margin-top: 28.5px;">
+					</li>
+				<li class="clone" style="width: 228px; margin-top: 28.5px;">
 						<div class="box">
-							<div class="pic"><a href="http://legenddigital.com.au/marketing/180" target="_top"><img src="image/20160219143821408862_300x300_cut.jpg" alt="TASMAN UGG"></a></div>
-							<div class="txt"><a href="http://legenddigital.com.au/marketing/180" target="_top">TASMAN UGG</a></div>
-							<div class="btn"><a href="http://legenddigital.com.au/marketing/180" target="_top">View more</a></div>
+							<div class="pic"><a href="#"><img src="image/20160219143821408862_300x300_cut.jpg" alt="TASMAN UGG"></a></div>
+							<div class="txt"><a href="#">TASMAN UGG</a></div>
+							<div class="btn"><a href="#">View more</a></div>
 						</div>
-					</li><li class="clone" style="width: 228px; margin-top: 28.5px;">
+					</li>
+				<li class="clone" style="width: 228px; margin-top: 28.5px;">
 						<div class="box">
-							<div class="pic"><a href="http://legenddigital.com.au/marketing/179" target="_top"><img src="image/20160219145131169162_300x300_cut.jpg" alt="全球华语网络主播大赛"></a></div>
-							<div class="txt"><a href="http://legenddigital.com.au/marketing/179" target="_top">全球华语网络主播大赛</a></div>
-							<div class="btn"><a href="http://legenddigital.com.au/marketing/179" target="_top">View more</a></div>
+							<div class="pic"><a href="#"><img src="image/20160219145131169162_300x300_cut.jpg" alt="全球华语网络主播大赛"></a></div>
+							<div class="txt"><a href="#">全球华语网络主播大赛</a></div>
+							<div class="btn"><a href="#">View more</a></div>
 						</div>
-					</li><li class="clone" style="width: 228px; margin-top: 28.5px;">
+					</li>
+				<li class="clone" style="width: 228px; margin-top: 28.5px;">
 						<div class="box">
-							<div class="pic"><a href="http://legenddigital.com.au/marketing/162" target="_top"><img src="image/20160219144607881625_300x300_cut.jpg" alt="2016张惠妹世界巡演 悉尼站"></a></div>
-							<div class="txt"><a href="http://legenddigital.com.au/marketing/162" target="_top">2016张惠妹世界巡演 悉尼站</a></div>
-							<div class="btn"><a href="http://legenddigital.com.au/marketing/162" target="_top">View more</a></div>
+							<div class="pic"><a href="#"><img src="image/20160219144607881625_300x300_cut.jpg" alt="2016张惠妹世界巡演 悉尼站"></a></div>
+							<div class="txt"><a href="#">2016张惠妹世界巡演 悉尼站</a></div>
+							<div class="btn"><a href="#">View more</a></div>
 						</div>
-					</li><li class="clone" style="width: 228px; margin-top: 28.5px;">
+					</li>
+				<li class="clone" style="width: 228px; margin-top: 28.5px;">
 						<div class="box">
-							<div class="pic"><a href="http://legenddigital.com.au/marketing/159" target="_top"><img src="image/20160219144326589268_300x300_cut.jpg" alt="汪峰2015风暴来临演唱会新闻发布会"></a></div>
-							<div class="txt"><a href="http://legenddigital.com.au/marketing/159" target="_top">汪峰2015风暴来临演唱会新闻发布会</a></div>
-							<div class="btn"><a href="http://legenddigital.com.au/marketing/159" target="_top">View more</a></div>
+							<div class="pic"><a href="#" target="_top"><img src="image/20160219144326589268_300x300_cut.jpg" alt="汪峰2015风暴来临演唱会新闻发布会"></a></div>
+							<div class="txt"><a href="#" target="_top">汪峰2015风暴来临演唱会新闻发布会</a></div>
+							<div class="btn"><a href="#" target="_top">View more</a></div>
 						</div>
-					</li><li class="clone" style="width: 228px; margin-top: 28.5px;">
+					</li>
+				<li class="clone" style="width: 228px; margin-top: 28.5px;">
 						<div class="box">
 							<div class="pic"><a href="http://legenddigital.com.au/marketing/160" target="_top"><img src="image/20160219144727150989_300x300_cut.jpg" alt="2015澳洲华裔小姐竞选"></a></div>
 							<div class="txt"><a href="http://legenddigital.com.au/marketing/160" target="_top">2015澳洲华裔小姐竞选</a></div>
@@ -576,7 +386,7 @@
 </div>
 <div class="marketing2 not-in-view">
 	<div class="wrap">
-		<div class="hd-03"><h2>Marketing partners</h2></div>
+		<div class="hd-03"><h2>营销推广合作伙伴</h2></div>
 		<ul class="clearfix">
 			<li><img src="image/lwd_pic_02.jpg">谷歌合作伙伴</li>
 			<li><img src="image/lwd_pic_03.png">百度联盟</li>
@@ -585,98 +395,8 @@
 		</ul>
 	</div>
 </div>
-<script>
-$(function(){
-	var s = $('.marketing-slider');
-	var sUl = s.find('.slides');
-	var sLi = s.find('.slides li');
-	var sLength = s.find('.slides li').length;
-	
-	var vWidth = s.outerWidth();
-	var vNum = 3;
-	var sLiBigWidth = vWidth / vNum;
-	var sLiSmallWidth = sLiBigWidth * 0.8;
-	
-	var isScroll = true;
-	var sTime = null;
-	
-
-	for( var i = sLength; i >= 1; i--){
-		sLi.eq(i-1).clone().addClass('clone').removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2}).prependTo(sUl);
-	}
-	for( var i = 1; i <= sLength; i++){
-		sLi.eq(i-1).clone().addClass('clone').removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2}).appendTo(sUl);
-	}
-	
-	var sInit = function(){
-		if( !sTime ){
-			clearTimeout(sTime);
-		}
-
-		vWidth = s.outerWidth();
-		sLiBigWidth = vWidth / vNum;
-		sLiSmallWidth = sLiBigWidth * 0.8;
-
-		sUl.css({'left': -(sLength * sLiSmallWidth)+'px', 'width': ( sLength * sLiSmallWidth * 2) + (( sLength -3 ) * sLiSmallWidth) + (3 * sLiBigWidth) +'px'});
-		sLi = s.find('.slides li');
-		sLi.removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2 });
-		for( var i=sLength; i< sLength+vNum; i++ ){
-			sLi.eq(i).addClass('active').css({'width': sLiBigWidth,'margin-top':0 });
-		}
-		s.find('.arrow').css({'top': sLiBigWidth/2 })
-		s.height(sUl.height());
-		setTimeout(function(){
-			s.height(sUl.height());
-		},600);
-	}
-	sInit();
-	
-	var slider_arrow_prev = function(){
-		if( !isScroll ){
-			return;
-		}
-		isScroll = false;
-		
-		sLi = s.find('.slides li');
-		sLi.removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2 });
-		for( var i=sLength-vNum+1; i< sLength+1; i++ ){
-			sLi.eq(i).addClass('active').css({'width': sLiBigWidth,'margin-top':0 });
-		}
-		
-		sUl.css({'left': (parseInt(sUl.css('left'))) - (sLiSmallWidth * 3) });
-		s.find('.slides li:gt('+(sLength*3 -vNum)+')').prependTo(sUl);
-		sUl.animate({'left': (sLiSmallWidth * 3) + (parseInt(sUl.css('left')))  },1000,'swing',function(){ isScroll = true;});
-	}
-	
-	var slider_arrow_next = function(){
-		if( !isScroll ){
-			return;
-		}
-		isScroll = false;
-		
-		sLi = s.find('.slides li');
-		sLi.removeClass('active').css({'width': sLiSmallWidth,'margin-top': (sLiBigWidth-sLiSmallWidth) /2 });
-		for( var i=sLength+vNum; i< sLength+(vNum*2); i++ ){
-			sLi.eq(i).addClass('active').css({'width': sLiBigWidth,'margin-top':0});
-		}
-		
-		sUl.css({'left': (sLiSmallWidth * 3) + (parseInt(sUl.css('left'))) +'px'});
-		s.find('.slides li:lt('+(vNum)+')').appendTo(sUl);
-		sUl.animate({'left': (parseInt(sUl.css('left'))) - (sLiSmallWidth * 3) },1000,'swing',function(){ isScroll = true;});
-	}
-	
-	s.find('.arrow li').eq(0).click(function(){
-		slider_arrow_prev();
-	});
-	s.find('.arrow li').eq(1).click(function(){
-		slider_arrow_next();
-	});
-	
-	$(window).resize(function(){
-		sInit();
-	});
-});
-</script>	<a name="sysPro"></a>
+<!-- 服务结束-->
+	<a name="sysPro"></a>
 <div class="sysPro not-in-view">
 	<div class="hd hd-02">
 		<h2>System Development Schemes and Solutions</h2>
@@ -687,21 +407,20 @@ $(function(){
 			<ul class="arrow"><li class="prev"><a href="javascript:;"><i></i></a></li><li class="next"><a href="javascript:;"><i></i></a></li></ul>
 			<div class="txt-slides">
 				<ul class="slides clearfix">
-											<li class="txt-slider-item active">
-							<div class="box">
-								<div class="txt">
-									<h2>神话物流系统</h2>
-									<div class="article">
-										<p>
-	神话物流系统是针对华人物流公司开发的一套职能物流系统，系统包含 司机扫描设备仓库入库设备，仓库出库设备等软件以及硬件研发。解决了目前华人的物流公司中的身份证多次上传，产品报关单人工生成以及excel上传面单信息等,神话物流系统通过技术来帮助传统物流公司解决物流流程上的重复劳动力，减少人工成本。</p>
-<ul>
-	<li>
-		自动报关单生成</li>
-	<li>
-		批次身份证批量导出</li>
-	<li>
-		智能面单录入</li>
-</ul>
+					<li class="txt-slider-item active">
+						<div class="box">
+							<div class="txt">
+								<h2>神话物流系统</h2>
+								<div class="article">
+									<p>神话物流系统是针对华人物流公司开发的一套职能物流系统，系统包含 司机扫描设备仓库入库设备，仓库出库设备等软件以及硬件研发。解决了目前华人的物流公司中的身份证多次上传，产品报关单人工生成以及excel上传面单信息等,神话物流系统通过技术来帮助传统物流公司解决物流流程上的重复劳动力，减少人工成本。</p>
+									<ul>
+										<li>
+											自动报关单生成</li>
+										<li>
+											批次身份证批量导出</li>
+										<li>
+											智能面单录入</li>
+									</ul>
 
 										<div class="btn"><a href="http://legenddigital.com.au/system/191" target="_top">查看详细</a></div>
 									</div>
@@ -776,76 +495,7 @@ $(function(){
 		</div>
 	</div>
 </div>
-<script>
-	var sysPro = function(obj){
-		var obj = $(obj);
-		var objBigBox = obj.find('.slides');
-		var objSmallBox = obj.find('.slides li');
-		var objSBLength = obj.find('.slides li').length;
-		var viewWidth = obj.outerWidth();
-		var smallBoxWidth = viewWidth;
-		var bigBoxWidth = ((objSBLength - 1) * smallBoxWidth) + viewWidth;
-		
-		var init = function(){
-			viewWidth = obj.outerWidth();
-			smallBoxWidth = viewWidth;
-			bigBoxWidth = ((objSBLength - 1) * smallBoxWidth) + viewWidth;
-		}
-		
-		obj.find('.pic-slides-bd').css({'width': bigBoxWidth+'px'});
-		objSmallBox.css({'width': viewWidth+'px'});
-		objSmallBox.eq(0).addClass('active');
-		obj.siblings('.txt-slides').find('.txt-slider-item').eq(0).addClass('active');
-		objBigBox.css({'position':'relative','left': -(obj.find('.active').index() * smallBoxWidth)+'px','top':'0','width': bigBoxWidth+'px'});
-		obj.find('.arrow').css({'top': (obj.find('.active .pic').height() / 2)+'px'})
-		
-		var currentSmallBox = obj.find('.active');
-		var currentIndex = currentSmallBox.index() + 1;
-		var currentLeft = '0';
-		
-		
-		var boxscroll = function(){
-			objSmallBox.css({'width': viewWidth+'px'});
-			obj.find('.pic-slides-bd').css({'width': bigBoxWidth+'px'});
-			objSmallBox.eq(currentIndex-1).addClass('active').siblings().removeClass('active');
-
-			currentLeft = -((currentIndex-1)*smallBoxWidth);
-			objBigBox.css({'left': currentLeft+'px'});
-			obj.siblings('.txt-slides').find('.txt-slider-item').eq(currentIndex-1).addClass('active').siblings().removeClass('active');
-		}
-		
-		
-		var arrowPrev = function(){
-			if ( currentIndex <= objSBLength && currentIndex > 1){
-				currentIndex -= 1;
-				boxscroll();
-			}
-		}
-		var arrowNext = function(){
-			if ( currentIndex < objSBLength && currentIndex >= 1){
-				currentIndex += 1;
-				boxscroll();
-			}
-		}
-		objSmallBox.each(function(index){
-			var _this = $(this);
-			_this.click(function(){
-				currentIndex = $(this).index()+1;
-				boxscroll();
-			});
-		});
-		
-		obj.siblings('.arrow').find('li').eq(0).click(function(){
-			arrowPrev();
-		});
-		obj.siblings('.arrow').find('li').eq(1).click(function(){
-			arrowNext();
-		});
-	}
-	$(function(){
-		sysPro('.sysPro-slider .pic-slides');
-	});
-</script>	<a name="portfolio"></a>
+<a name="portfolio"></a>
 
 <script src="javascript/jquery.lightbox.js"></script>
 <script>
@@ -1157,7 +807,7 @@ $(function(){
 						</div>
 						<div class="col r">
 							<div class="input-box">
-								<input name="phone" placeholder="*  Phone" value="" type="text">
+								<input name="" placeholder="*  " value="" type="text">
 							</div>
 						</div>
 					</div>
@@ -1207,7 +857,7 @@ $(function(){
 							firstName: form.firstName.value,
 							lastName: form.lastName.value,
 							email: form.email.value,
-							phone: form.phone.value,
+							: form..value,
 							company: form.company.value,
 							state: form.state.value,
 							message: form.message.value,
@@ -1236,34 +886,25 @@ $(function(){
 	</div>
 	<div class="f-nav">
 		<ul class="clearfix">
-			<li><a href="http://legenddigital.com.au/" class="current"><img src="image/nav-home.png" alt="Home"><span>Home</span></a></li>
-			<li><a href="http://legenddigital.com.au/#about"><img src="image/nav-about.png" alt="About us"><span>About us</span></a></li>
-			<li><a href="http://legenddigital.com.au/web-design"><img src="image/nav-webdesign.png" alt="Web design"><span>Web design</span></a></li>
-			<li><a href="http://legenddigital.com.au/ecommerce"><img src="image/nav-ecommerce.png" alt="Ecommerce"><span>Ecommerce</span></a></li>
-			<li><a href="http://legenddigital.com.au/portfolio/picture-album"><img src="image/nav-graphicdesign.png" alt="Graphic Design"><span>Graphic Design</span></a></li>
-			<li><a href="http://legenddigital.com.au/portfolio"><img src="image/nav-portfolio.png" alt="Portfolio"><span>Portfolio</span></a></li>
-			<li><a href="http://legenddigital.com.au/#contact"><img src="image/nav-contact.png" alt="Contact us"><span>Contact us</span></a></li>
+			<li><a href="#" class="current"><img src="image/nav-home.png" alt="Home"><span>Home</span></a></li>
+			<li><a href="#about"><img src="image/nav-about.png" alt="About us"><span>About us</span></a></li>
+			<li><a href="javascript:void(0)"><img src="image/nav-webdesign.png" alt="Web design"><span>Web design</span></a></li>
+			<li><a href="javascript:void(0)"><img src="image/nav-ecommerce.png" alt="Ecommerce"><span>Ecommerce</span></a></li>
+			<li><a href="javascript:void(0)"><img src="image/nav-graphicdesign.png" alt="Graphic Design"><span>Graphic Design</span></a></li>
+			<li><a href="javascript:void(0)"><img src="image/nav-portfolio.png" alt="Portfolio"><span>Portfolio</span></a></li>
+			<li><a href="#contact"><img src="image/nav-contact.png" alt="Contact us"><span>Contact us</span></a></li>
 		</ul>
 	</div>
 	</footer>
 
 <div class="r-share">
-	<a href="https://www.facebook.com/legendwebdesign" target="_top" class="f"></a>
-	<a href="https://twitter.com/Legendinternet" target="_top" class="t"></a>
+	<a href="#" target="_top" class="f"></a>
+	<a href="#" target="_top" class="t"></a>
 	<a href="javascript:;" target="_top" class="l"></a>
 	<a href="javascript:;" target="_top" class="w"><span><i class="img_01"><img src="image/ewm1.jpg"></i></span></a>
 </div>
 
-<!--div class="wechat">
-	<div class="close"><a href="javascript:;" title="关闭">X</a></div>
-	<div class="pic"><img src="image/http://legenddigital.com.au/themes/en/images/wechat.jpg" alt="About us" /></div>
-	<div class="txt">扫描二维码关注神话网络微信</p></div>
-</div>
-<script>
-	$('script:last').prev().find('.close').click(function(){
-		$(this).parent().hide();
-	});
-</script-->
+
 
 <div id="let-talk-window" class="let-talk-window">
 	<div class="let-talk-window-wrapper ps-container">
@@ -1291,7 +932,7 @@ $(function(){
 						</div>
 						<div class="row clearfix">
 							<div class="col"><div class="input-box"><input name="email" placeholder="*  Email" value="" type="text"></div></div>
-							<div class="col r"><div class="input-box"><input name="phone" placeholder="*  Phone" value="" type="text"></div></div>
+							<div class="col r"><div class="input-box"><input name="" placeholder="*  " value="" type="text"></div></div>
 						</div>
 						<div class="row clearfix">
 							<div class="col"><div class="input-box"><input name="company" placeholder="Company" value="" type="text"></div></div>
@@ -1342,7 +983,7 @@ $(function(){
 								firstName: form.firstName.value,
 								lastName: form.lastName.value,
 								email: form.email.value,
-								phone: form.phone.value,
+								: form..value,
 								company: form.company.value,
 								state: form.state.value,
 								interest: _form.find('input[name="interest[]"]:checked').map(function(){ return $(this).val() }).get().join(','),
